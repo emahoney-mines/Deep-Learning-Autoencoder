@@ -1,0 +1,2985 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>5cc2b20e995b4e8f82826e067f370044</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<section id="csci-470-activities-and-case-studies" class="cell markdown"
+id="HSMwjcWYFPQE">
+<h2>CSCI 470 Activities and Case Studies</h2>
+<ol>
+<li>For all activities, you are allowed to collaborate with a
+partner.</li>
+<li>For case studies, you should work individually and are
+<strong>not</strong> allowed to collaborate.</li>
+</ol>
+<p>By filling out this notebook and submitting it, you acknowledge that
+you are aware of the above policies and are agreeing to comply with
+them.</p>
+</section>
+<div class="cell markdown" id="-6ahy8TEFPQF">
+<p>Some considerations with regard to how these notebooks will be
+graded:</p>
+<ol>
+<li>Cells in which "# YOUR CODE HERE" is found are the cells where your
+graded code should be written.</li>
+<li>In order to test out or debug your code you may also create notebook
+cells or edit existing notebook cells other than "# YOUR CODE HERE". We
+actually highly recommend you do so to gain a better understanding of
+what is happening. However, during grading, <strong>these changes are
+ignored</strong>.</li>
+<li>You must ensure that all your code for the particular task is
+available in the cells that say "# YOUR CODE HERE"</li>
+<li>Every cell that says "# YOUR CODE HERE" is followed by a "raise
+NotImplementedError". You need to remove that line. During grading, if
+an error occurs then you will not receive points for your work in that
+section.</li>
+<li>If your code passes the "assert" statements, then no output will
+result. If your code fails the "assert" statements, you will get an
+"AssertionError". Getting an assertion error means you will not receive
+points for that particular task.</li>
+<li>If you edit the "assert" statements to make your code pass, they
+will still fail when they are graded since the "assert" statements will
+revert to the original. Make sure you don't edit the assert
+statements.</li>
+<li>We may sometimes have "hidden" tests for grading. This means that
+passing the visible "assert" statements is not sufficient. The "assert"
+statements are there as a guide but you need to make sure you understand
+what you're required to do and ensure that you are doing it correctly.
+Passing the visible tests is necessary but not sufficient to get the
+grade for that cell.</li>
+<li>When you are asked to define a function, make sure you
+<strong>don't</strong> use any variables outside of the parameters
+passed to the function. You can think of the parameters being passed to
+the function as a hint. Make sure you're using all of those
+variables.</li>
+<li>Finally, <strong>make sure you run "Kernel &gt; Restart and Run
+All"</strong> and pass all the asserts before submitting. If you don't
+restart the kernel, there may be some code that you ran and deleted that
+is still being used and that was why your asserts were passing.</li>
+</ol>
+</div>
+<section id="deep-learning---autoencoders" class="cell markdown"
+data-deletable="false" data-editable="false" id="oKaQQhG8FPQG"
+data-nbgrader="{&quot;cell_type&quot;:&quot;markdown&quot;,&quot;checksum&quot;:&quot;f5bc91cffca4c7fcddc138415994de5d&quot;,&quot;grade&quot;:false,&quot;grade_id&quot;:&quot;cell-02f2e430dc0f2177&quot;,&quot;locked&quot;:true,&quot;schema_version&quot;:3,&quot;solution&quot;:false}">
+<h1>Deep Learning - Autoencoders</h1>
+<p>In this exercise we'll use an AutoEncoder to learn a dimenionally
+reduced representation of data and investigate its performance compared
+to using the original data. You'll learn how to build AutoEncoders and
+how to use the Keras functional API.</p>
+</section>
+<div class="cell code" id="68TnqZ7rFPQG"
+data-nbgrader="{&quot;grade&quot;:false,&quot;grade_id&quot;:&quot;cell-bfa63f9cefeb60ef&quot;,&quot;locked&quot;:false,&quot;schema_version&quot;:3,&quot;solution&quot;:false}">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> tensorflow <span class="im">as</span> tf</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> tensorflow.keras <span class="im">as</span> keras</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> tensorflow.keras.layers <span class="im">import</span> Dense</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> tensorflow.keras <span class="im">import</span> Model, Input</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> sklearn <span class="im">as</span> sk</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.datasets <span class="im">import</span> load_breast_cancer</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.model_selection <span class="im">import</span> train_test_split</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.svm <span class="im">import</span> LinearSVC</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="op">%</span>matplotlib inline</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>plt.style.use(<span class="st">&quot;ggplot&quot;</span>)</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>np.random.seed(<span class="dv">0</span>)</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>tf.random.set_seed(<span class="dv">0</span>)</span></code></pre></div>
+</div>
+<div class="cell code" id="XRrkZvqlFPQH"
+data-nbgrader="{&quot;grade&quot;:false,&quot;grade_id&quot;:&quot;cell-ef6a42882991834b&quot;,&quot;locked&quot;:false,&quot;schema_version&quot;:3,&quot;solution&quot;:false}">
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> load_breast_cancer()</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>features <span class="op">=</span> data[<span class="st">&quot;data&quot;</span>]</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>targets <span class="op">=</span> data[<span class="st">&quot;target&quot;</span>]</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>X_train, X_test, y_train, y_test <span class="op">=</span> train_test_split(features, targets, random_state<span class="op">=</span><span class="dv">0</span>)</span></code></pre></div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="_bKxH6DGFPQI" data-outputId="1fc8c53f-a580-4718-9c94-0f74ac8b1048">
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Read through the description of the data to better understand it</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="co"># What features do we have and what is the target we&#39;re trying to predict?</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(data[<span class="st">&quot;DESCR&quot;</span>])</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>.. _breast_cancer_dataset:
+
+Breast cancer wisconsin (diagnostic) dataset
+--------------------------------------------
+
+**Data Set Characteristics:**
+
+    :Number of Instances: 569
+
+    :Number of Attributes: 30 numeric, predictive attributes and the class
+
+    :Attribute Information:
+        - radius (mean of distances from center to points on the perimeter)
+        - texture (standard deviation of gray-scale values)
+        - perimeter
+        - area
+        - smoothness (local variation in radius lengths)
+        - compactness (perimeter^2 / area - 1.0)
+        - concavity (severity of concave portions of the contour)
+        - concave points (number of concave portions of the contour)
+        - symmetry
+        - fractal dimension (&quot;coastline approximation&quot; - 1)
+
+        The mean, standard error, and &quot;worst&quot; or largest (mean of the three
+        worst/largest values) of these features were computed for each image,
+        resulting in 30 features.  For instance, field 0 is Mean Radius, field
+        10 is Radius SE, field 20 is Worst Radius.
+
+        - class:
+                - WDBC-Malignant
+                - WDBC-Benign
+
+    :Summary Statistics:
+
+    ===================================== ====== ======
+                                           Min    Max
+    ===================================== ====== ======
+    radius (mean):                        6.981  28.11
+    texture (mean):                       9.71   39.28
+    perimeter (mean):                     43.79  188.5
+    area (mean):                          143.5  2501.0
+    smoothness (mean):                    0.053  0.163
+    compactness (mean):                   0.019  0.345
+    concavity (mean):                     0.0    0.427
+    concave points (mean):                0.0    0.201
+    symmetry (mean):                      0.106  0.304
+    fractal dimension (mean):             0.05   0.097
+    radius (standard error):              0.112  2.873
+    texture (standard error):             0.36   4.885
+    perimeter (standard error):           0.757  21.98
+    area (standard error):                6.802  542.2
+    smoothness (standard error):          0.002  0.031
+    compactness (standard error):         0.002  0.135
+    concavity (standard error):           0.0    0.396
+    concave points (standard error):      0.0    0.053
+    symmetry (standard error):            0.008  0.079
+    fractal dimension (standard error):   0.001  0.03
+    radius (worst):                       7.93   36.04
+    texture (worst):                      12.02  49.54
+    perimeter (worst):                    50.41  251.2
+    area (worst):                         185.2  4254.0
+    smoothness (worst):                   0.071  0.223
+    compactness (worst):                  0.027  1.058
+    concavity (worst):                    0.0    1.252
+    concave points (worst):               0.0    0.291
+    symmetry (worst):                     0.156  0.664
+    fractal dimension (worst):            0.055  0.208
+    ===================================== ====== ======
+
+    :Missing Attribute Values: None
+
+    :Class Distribution: 212 - Malignant, 357 - Benign
+
+    :Creator:  Dr. William H. Wolberg, W. Nick Street, Olvi L. Mangasarian
+
+    :Donor: Nick Street
+
+    :Date: November, 1995
+
+This is a copy of UCI ML Breast Cancer Wisconsin (Diagnostic) datasets.
+https://goo.gl/U2Uwz2
+
+Features are computed from a digitized image of a fine needle
+aspirate (FNA) of a breast mass.  They describe
+characteristics of the cell nuclei present in the image.
+
+Separating plane described above was obtained using
+Multisurface Method-Tree (MSM-T) [K. P. Bennett, &quot;Decision Tree
+Construction Via Linear Programming.&quot; Proceedings of the 4th
+Midwest Artificial Intelligence and Cognitive Science Society,
+pp. 97-101, 1992], a classification method which uses linear
+programming to construct a decision tree.  Relevant features
+were selected using an exhaustive search in the space of 1-4
+features and 1-3 separating planes.
+
+The actual linear program used to obtain the separating plane
+in the 3-dimensional space is that described in:
+[K. P. Bennett and O. L. Mangasarian: &quot;Robust Linear
+Programming Discrimination of Two Linearly Inseparable Sets&quot;,
+Optimization Methods and Software 1, 1992, 23-34].
+
+This database is also available through the UW CS ftp server:
+
+ftp ftp.cs.wisc.edu
+cd math-prog/cpo-dataset/machine-learn/WDBC/
+
+.. topic:: References
+
+   - W.N. Street, W.H. Wolberg and O.L. Mangasarian. Nuclear feature extraction 
+     for breast tumor diagnosis. IS&amp;T/SPIE 1993 International Symposium on 
+     Electronic Imaging: Science and Technology, volume 1905, pages 861-870,
+     San Jose, CA, 1993.
+   - O.L. Mangasarian, W.N. Street and W.H. Wolberg. Breast cancer diagnosis and 
+     prognosis via linear programming. Operations Research, 43(4), pages 570-577, 
+     July-August 1995.
+   - W.H. Wolberg, W.N. Street, and O.L. Mangasarian. Machine learning techniques
+     to diagnose breast cancer from fine-needle aspirates. Cancer Letters 77 (1994) 
+     163-171.
+</code></pre>
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="dqY5evA8FPQI"
+data-nbgrader="{&quot;grade&quot;:false,&quot;grade_id&quot;:&quot;cell-00fdca3096d5954a&quot;,&quot;locked&quot;:false,&quot;schema_version&quot;:3,&quot;solution&quot;:false}"
+data-outputId="d1109ce6-e452-49e5-8ec7-2d1147b78256">
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>X_train.shape</span></code></pre></div>
+<div class="output execute_result" data-execution_count="4">
+<pre><code>(426, 30)</code></pre>
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="l-0AaEDyFPQI"
+data-nbgrader="{&quot;grade&quot;:false,&quot;grade_id&quot;:&quot;cell-d500a79191103d38&quot;,&quot;locked&quot;:false,&quot;schema_version&quot;:3,&quot;solution&quot;:false}"
+data-outputId="339df7bd-c47e-4ab3-d74f-c34b91a02bbb">
+<div class="sourceCode" id="cb7"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>X_train</span></code></pre></div>
+<div class="output execute_result" data-execution_count="5">
+<pre><code>array([[1.185e+01, 1.746e+01, 7.554e+01, ..., 9.140e-02, 3.101e-01,
+        7.007e-02],
+       [1.122e+01, 1.986e+01, 7.194e+01, ..., 2.022e-02, 3.292e-01,
+        6.522e-02],
+       [2.013e+01, 2.825e+01, 1.312e+02, ..., 1.628e-01, 2.572e-01,
+        6.637e-02],
+       ...,
+       [9.436e+00, 1.832e+01, 5.982e+01, ..., 5.052e-02, 2.454e-01,
+        8.136e-02],
+       [9.720e+00, 1.822e+01, 6.073e+01, ..., 0.000e+00, 1.909e-01,
+        6.559e-02],
+       [1.151e+01, 2.393e+01, 7.452e+01, ..., 9.653e-02, 2.112e-01,
+        8.732e-02]])</code></pre>
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="CLh3Q4t3FPQJ"
+data-nbgrader="{&quot;grade&quot;:false,&quot;grade_id&quot;:&quot;cell-ee63a46921cf0ff7&quot;,&quot;locked&quot;:false,&quot;schema_version&quot;:3,&quot;solution&quot;:false}"
+data-outputId="17ad1408-f56c-4b22-eed1-cd0e1bcf9957">
+<div class="sourceCode" id="cb9"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>y_train.shape</span></code></pre></div>
+<div class="output execute_result" data-execution_count="6">
+<pre><code>(426,)</code></pre>
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="07xALXsyFPQJ"
+data-nbgrader="{&quot;grade&quot;:false,&quot;grade_id&quot;:&quot;cell-a91b741d4ee54822&quot;,&quot;locked&quot;:false,&quot;schema_version&quot;:3,&quot;solution&quot;:false}"
+data-outputId="5583f4a3-28b8-42c0-c40d-73face05793b">
+<div class="sourceCode" id="cb11"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>y_train</span></code></pre></div>
+<div class="output execute_result" data-execution_count="7">
+<pre><code>array([1, 1, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1, 0, 0, 1, 1, 0, 1,
+       0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 0, 1, 1, 1,
+       1, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 1, 1, 0, 0, 0, 1, 1, 1, 0,
+       1, 1, 1, 1, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 1, 1, 1, 0, 1, 0, 1,
+       1, 1, 0, 1, 1, 1, 0, 1, 1, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 1, 0,
+       1, 0, 1, 0, 1, 0, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+       0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1, 1, 0, 1, 0, 0, 1, 0,
+       0, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 1,
+       1, 1, 1, 0, 1, 1, 0, 1, 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 0, 0, 1, 0,
+       1, 0, 0, 1, 1, 1, 1, 1, 0, 1, 1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 0, 1,
+       1, 0, 1, 1, 1, 0, 1, 0, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1,
+       1, 1, 0, 1, 1, 0, 1, 1, 0, 0, 0, 0, 1, 1, 0, 1, 1, 1, 0, 0, 1, 1,
+       1, 1, 1, 0, 0, 0, 1, 0, 0, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1,
+       0, 0, 1, 0, 1, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0,
+       1, 0, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 0, 1, 1, 1, 1,
+       0, 1, 0, 0, 0, 1, 0, 1, 0, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0,
+       0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 1, 1, 0, 0, 0, 1,
+       0, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0, 1, 1, 0, 0, 1, 0, 1,
+       1, 1, 1, 0, 1, 1, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 1, 1, 0, 1, 1, 1,
+       1, 1, 0, 0, 0, 1, 1, 1])</code></pre>
+</div>
+</div>
+<div class="cell markdown" data-deletable="false" data-editable="false"
+id="10pg02SsFPQJ"
+data-nbgrader="{&quot;cell_type&quot;:&quot;markdown&quot;,&quot;checksum&quot;:&quot;f1dc4a56eec7732bb2329786a6e3f1f5&quot;,&quot;grade&quot;:false,&quot;grade_id&quot;:&quot;cell-1176b78d06c61ed0&quot;,&quot;locked&quot;:true,&quot;schema_version&quot;:3,&quot;solution&quot;:false}">
+<h3 id="building-a-keras-model-with-the-functional-api">Building a Keras
+Model with the functional API</h3>
+<p>In this exercise, instead of using the <code>Sequential</code> model,
+we will use the base <code>Model</code> in <code>tf.keras</code>. There
+are two approaches to using <code>tf.keras.Model</code>. We will use the
+functional API as outlined in the <a
+href="https://www.tensorflow.org/api_docs/python/tf/keras/models/Model"><code>Model</code>
+docs</a>.</p>
+<p>Note that unlike the manner in which we defined our model in the
+prior Activity, in this Activity (using the base Model) the definition
+is more like that of the coding of a functional algorithm, e.g.:</p>
+<p>b = f1(a)<br />
+c = f2(b)<br />
+d = f3(c)<br />
+etc.</p>
+<p>Unlike traditional script execution in Python, however, those lines
+of code do not actually execute the computation at that moment. Rather,
+they are defining a chain of operations that our <code>Model</code> will
+execute later, when we ask it to.</p>
+<h3 id="the-architecture-of-your-autoencoder">The architecture of your
+autoencoder</h3>
+<p>Below, you'll build an autoencoder with several layers. Recall that
+an encoder is composed of an "encoder" portion and a "decoder" portion.
+Your encoder will have two layers, transforming the number of features
+down to 10 in the first layer, and down to 5 (or less) in the second
+layer. The output of that second layer will serve as the encoded (or
+"embedded") representation, which will later be used as features for an
+SVM model. Your decoder will also have two layers, undoing the encoding,
+and transforming the encoded representation up to 10 in the first layer,
+and up to the original dimensionality in its second layer.</p>
+<p>Your autoencoder model with thus have 4 layers of neurons. Some would
+call this a 5-layer model, considering the input samples as a "layer" as
+well, although that is not a layer of neurons.</p>
+</div>
+<div class="cell code" data-deletable="false" id="g7ltI37qFPQK"
+data-nbgrader="{&quot;cell_type&quot;:&quot;code&quot;,&quot;checksum&quot;:&quot;53b86a7e80ac5f197c5a3e7ae190ec5d&quot;,&quot;grade&quot;:false,&quot;grade_id&quot;:&quot;cell-b228946b2927aed3&quot;,&quot;locked&quot;:false,&quot;schema_version&quot;:3,&quot;solution&quot;:true}">
+<div class="sourceCode" id="cb13"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Determine the number of input dimensions (features) and use that value to</span></span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a><span class="co"># create a tf.keras.Input object, giving it the variable name &quot;inputs&quot;.</span></span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Also, select a dimension (&lt;=5) for the encoding/embedding (the number of</span></span>
+<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a><span class="co"># neurons in the &quot;middle&quot; layer of your autoencoder) and give it the</span></span>
+<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a><span class="co"># variable name &quot;embedding_dim&quot;.</span></span>
+<span id="cb13-7"><a href="#cb13-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-8"><a href="#cb13-8" aria-hidden="true" tabindex="-1"></a><span class="co"># YOUR CODE HERE</span></span>
+<span id="cb13-9"><a href="#cb13-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-10"><a href="#cb13-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Determine the number of input dimensions (features)</span></span>
+<span id="cb13-11"><a href="#cb13-11" aria-hidden="true" tabindex="-1"></a>input_dim <span class="op">=</span> X_train.shape[<span class="dv">1</span>]</span>
+<span id="cb13-12"><a href="#cb13-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-13"><a href="#cb13-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Set the embedding dimension</span></span>
+<span id="cb13-14"><a href="#cb13-14" aria-hidden="true" tabindex="-1"></a>embedding_dim <span class="op">=</span> <span class="dv">5</span></span>
+<span id="cb13-15"><a href="#cb13-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-16"><a href="#cb13-16" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a tf.keras.Input object for the input layer</span></span>
+<span id="cb13-17"><a href="#cb13-17" aria-hidden="true" tabindex="-1"></a>inputs <span class="op">=</span> tf.keras.Input(shape<span class="op">=</span>(input_dim,))</span>
+<span id="cb13-18"><a href="#cb13-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-19"><a href="#cb13-19" aria-hidden="true" tabindex="-1"></a><span class="co"># raise NotImplementedError()</span></span></code></pre></div>
+</div>
+<div class="cell code" data-deletable="false" data-editable="false"
+id="1reHS_gjFPQK"
+data-nbgrader="{&quot;cell_type&quot;:&quot;code&quot;,&quot;checksum&quot;:&quot;9b7026c4683712085ae0617034084db2&quot;,&quot;grade&quot;:true,&quot;grade_id&quot;:&quot;cell-3cc87f89c7f8bf0f&quot;,&quot;locked&quot;:true,&quot;points&quot;:5,&quot;schema_version&quot;:3,&quot;solution&quot;:false}">
+<div class="sourceCode" id="cb14"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> inputs.shape[<span class="dv">1</span>] <span class="op">==</span> X_train.shape[<span class="dv">1</span>]</span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> <span class="bu">isinstance</span>(embedding_dim, <span class="bu">int</span>)</span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> embedding_dim <span class="op">&gt;</span> <span class="dv">0</span> <span class="kw">and</span> embedding_dim <span class="op">&lt;=</span> <span class="dv">5</span></span></code></pre></div>
+</div>
+<div class="cell code" data-deletable="false" id="KgFj6JC-FPQK"
+data-nbgrader="{&quot;cell_type&quot;:&quot;code&quot;,&quot;checksum&quot;:&quot;9ad2ce2a2cef986ce7a88bb4dc84991b&quot;,&quot;grade&quot;:false,&quot;grade_id&quot;:&quot;cell-18891b82369b7f2b&quot;,&quot;locked&quot;:false,&quot;schema_version&quot;:3,&quot;solution&quot;:true}">
+<div class="sourceCode" id="cb15"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="co"># To start, you&#39;ll define the encoding portion of the autoencoder.</span></span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Start with &quot;inputs&quot; and chain layer calls to two subsequent Dense layers,</span></span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a><span class="co"># the first with 10 neurons (units), the second with &quot;embedding_dim&quot; neurons.</span></span>
+<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a><span class="co"># See the tf.keras.Model documentation (linked in the instructional cell</span></span>
+<span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a><span class="co"># above). There is a brief example near the top of that webpage.</span></span>
+<span id="cb15-7"><a href="#cb15-7" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span>
+<span id="cb15-8"><a href="#cb15-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Use ReLU as the activation function for the first Dense layer</span></span>
+<span id="cb15-9"><a href="#cb15-9" aria-hidden="true" tabindex="-1"></a><span class="co"># and do not set an activation for the second Dense layer.</span></span>
+<span id="cb15-10"><a href="#cb15-10" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span>
+<span id="cb15-11"><a href="#cb15-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Name the output of the second Dense layer &quot;encoded&quot;.</span></span>
+<span id="cb15-12"><a href="#cb15-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-13"><a href="#cb15-13" aria-hidden="true" tabindex="-1"></a><span class="co"># YOUR CODE</span></span>
+<span id="cb15-14"><a href="#cb15-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-15"><a href="#cb15-15" aria-hidden="true" tabindex="-1"></a>encoded <span class="op">=</span> tf.keras.layers.Dense(<span class="dv">10</span>, activation<span class="op">=</span><span class="st">&#39;relu&#39;</span>)(inputs)</span>
+<span id="cb15-16"><a href="#cb15-16" aria-hidden="true" tabindex="-1"></a>encoded <span class="op">=</span> tf.keras.layers.Dense(embedding_dim)(encoded)</span>
+<span id="cb15-17"><a href="#cb15-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-18"><a href="#cb15-18" aria-hidden="true" tabindex="-1"></a><span class="co"># raise NotImplementedError()</span></span></code></pre></div>
+</div>
+<div class="cell code" data-deletable="false" data-editable="false"
+id="o5EBy00VFPQL"
+data-nbgrader="{&quot;cell_type&quot;:&quot;code&quot;,&quot;checksum&quot;:&quot;31abc5cfc4f7c5a5576572024e68b292&quot;,&quot;grade&quot;:true,&quot;grade_id&quot;:&quot;cell-4bec706b02502c9c&quot;,&quot;locked&quot;:true,&quot;points&quot;:5,&quot;schema_version&quot;:3,&quot;solution&quot;:false}">
+<div class="sourceCode" id="cb16"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>testM <span class="op">=</span> Model(inputs, encoded)</span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> <span class="bu">len</span>(testM.layers) <span class="op">==</span> <span class="dv">3</span></span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> encoded.shape[<span class="dv">1</span>] <span class="op">==</span> embedding_dim</span></code></pre></div>
+</div>
+<div class="cell code" data-deletable="false" id="LpNp6bPnFPQL"
+data-nbgrader="{&quot;cell_type&quot;:&quot;code&quot;,&quot;checksum&quot;:&quot;706a2b69ebbb5ef265395058ba85af34&quot;,&quot;grade&quot;:false,&quot;grade_id&quot;:&quot;cell-4331d11179de97f3&quot;,&quot;locked&quot;:false,&quot;schema_version&quot;:3,&quot;solution&quot;:true}">
+<div class="sourceCode" id="cb17"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Now you&#39;ll define the decoding portion of the autoencoder.</span></span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span>
+<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Chain layer calls to two more dense layers, the first with 10 neurons and the</span></span>
+<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a><span class="co"># second (final layer) with the same number of neurons as your input (number</span></span>
+<span id="cb17-5"><a href="#cb17-5" aria-hidden="true" tabindex="-1"></a><span class="co"># of features).</span></span>
+<span id="cb17-6"><a href="#cb17-6" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span>
+<span id="cb17-7"><a href="#cb17-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Use ReLU as the activation function for the first new Dense layer</span></span>
+<span id="cb17-8"><a href="#cb17-8" aria-hidden="true" tabindex="-1"></a><span class="co"># and do not set an activation for the second new Dense layer.</span></span>
+<span id="cb17-9"><a href="#cb17-9" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span>
+<span id="cb17-10"><a href="#cb17-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Name the output of the final Dense layer &quot;decoded&quot;.</span></span>
+<span id="cb17-11"><a href="#cb17-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-12"><a href="#cb17-12" aria-hidden="true" tabindex="-1"></a><span class="co"># YOUR CODE HERE</span></span>
+<span id="cb17-13"><a href="#cb17-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-14"><a href="#cb17-14" aria-hidden="true" tabindex="-1"></a>decoded <span class="op">=</span> tf.keras.layers.Dense(input_dim, activation<span class="op">=</span><span class="va">None</span>)(tf.keras.layers.Dense(<span class="dv">10</span>, activation<span class="op">=</span><span class="st">&#39;relu&#39;</span>)(encoded))</span>
+<span id="cb17-15"><a href="#cb17-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-16"><a href="#cb17-16" aria-hidden="true" tabindex="-1"></a><span class="co">#raise NotImplementedError()</span></span></code></pre></div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+data-deletable="false" data-editable="false" id="TmcdmQA5FPQM"
+data-nbgrader="{&quot;cell_type&quot;:&quot;code&quot;,&quot;checksum&quot;:&quot;226c9a566578efa0ca1455d7f48e6c19&quot;,&quot;grade&quot;:true,&quot;grade_id&quot;:&quot;cell-3ea6527c01beb144&quot;,&quot;locked&quot;:true,&quot;points&quot;:5,&quot;schema_version&quot;:3,&quot;solution&quot;:false}"
+data-outputId="a160ac43-dbf1-45d4-9228-1a9e6b3f5728">
+<div class="sourceCode" id="cb18"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>testM <span class="op">=</span> Model(inputs, decoded)</span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="bu">len</span>(testM.layers))</span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> <span class="bu">len</span>(testM.layers) <span class="op">==</span> <span class="dv">5</span></span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> decoded.shape[<span class="dv">1</span>] <span class="op">==</span> <span class="dv">30</span></span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>5
+</code></pre>
+</div>
+</div>
+<section id="create-the-autoencoder" class="cell markdown"
+id="GkBWUilBFPQM">
+<h3>Create the autoencoder</h3>
+<p>Above, you defined the encoder, decoder, and collectively the
+autoencoder. But we haven't actually instantiated any anything yet.</p>
+<p>In the cell below, we'll create/instantiate your autoencoder for you,
+and also create a separate "encoder" object which shares its layers with
+the encoder portion of the autoencoder. This makes it easy for use to
+train the full autoencoder, and then use just the encoder portion to
+convert our original features into an embedded representation of lower
+dimensionality. We'll also create a separate "decoder" object in a
+similar manner.</p>
+</section>
+<div class="cell code" id="KH_s-ZRbFPQN"
+data-nbgrader="{&quot;grade&quot;:false,&quot;grade_id&quot;:&quot;cell-2205a928bea57abe&quot;,&quot;locked&quot;:false,&quot;schema_version&quot;:3,&quot;solution&quot;:false}">
+<div class="sourceCode" id="cb20"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Create the autoencoder</span></span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>autoencoder <span class="op">=</span> Model(inputs, decoded)</span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-5"><a href="#cb20-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Create the encoder, which takes the same inputs as the</span></span>
+<span id="cb20-6"><a href="#cb20-6" aria-hidden="true" tabindex="-1"></a><span class="co"># autoencoder, but stops after the encoding layers. Thus,</span></span>
+<span id="cb20-7"><a href="#cb20-7" aria-hidden="true" tabindex="-1"></a><span class="co"># the output of the encoder is the encoded representation.</span></span>
+<span id="cb20-8"><a href="#cb20-8" aria-hidden="true" tabindex="-1"></a>encoder <span class="op">=</span> Model(inputs, encoded)</span>
+<span id="cb20-9"><a href="#cb20-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-10"><a href="#cb20-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-11"><a href="#cb20-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Create the decoder which starts at the encoded output,</span></span>
+<span id="cb20-12"><a href="#cb20-12" aria-hidden="true" tabindex="-1"></a><span class="co"># and uses the remaining layers of the autoencoder...</span></span>
+<span id="cb20-13"><a href="#cb20-13" aria-hidden="true" tabindex="-1"></a>encoded_embedding <span class="op">=</span> Input(shape<span class="op">=</span>(embedding_dim,))</span>
+<span id="cb20-14"><a href="#cb20-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-15"><a href="#cb20-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Get the 1st and 2nd decoder layer from the autoencoder</span></span>
+<span id="cb20-16"><a href="#cb20-16" aria-hidden="true" tabindex="-1"></a>decoder_layer2 <span class="op">=</span> autoencoder.layers[<span class="op">-</span><span class="dv">2</span>]</span>
+<span id="cb20-17"><a href="#cb20-17" aria-hidden="true" tabindex="-1"></a>decoder_layer3 <span class="op">=</span> autoencoder.layers[<span class="op">-</span><span class="dv">1</span>]</span>
+<span id="cb20-18"><a href="#cb20-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-19"><a href="#cb20-19" aria-hidden="true" tabindex="-1"></a><span class="co"># Chain layer calls</span></span>
+<span id="cb20-20"><a href="#cb20-20" aria-hidden="true" tabindex="-1"></a>decoder_out <span class="op">=</span> decoder_layer3(decoder_layer2(encoded_embedding))</span>
+<span id="cb20-21"><a href="#cb20-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-22"><a href="#cb20-22" aria-hidden="true" tabindex="-1"></a><span class="co"># Create the decoder</span></span>
+<span id="cb20-23"><a href="#cb20-23" aria-hidden="true" tabindex="-1"></a>decoder <span class="op">=</span> Model(encoded_embedding, decoder_out)</span></code></pre></div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="vqNNXFzuFPQN"
+data-nbgrader="{&quot;grade&quot;:false,&quot;grade_id&quot;:&quot;cell-25699d121c563596&quot;,&quot;locked&quot;:false,&quot;schema_version&quot;:3,&quot;solution&quot;:false}"
+data-outputId="11e99efd-f38e-40d6-f5f0-d33d9e10559b">
+<div class="sourceCode" id="cb21"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="co"># View the autoencoder architecture</span></span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a>autoencoder.summary()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Model: &quot;model_3&quot;
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ input_2 (InputLayer)        [(None, 30)]              0         
+                                                                 
+ dense_2 (Dense)             (None, 10)                310       
+                                                                 
+ dense_3 (Dense)             (None, 5)                 55        
+                                                                 
+ dense_5 (Dense)             (None, 10)                60        
+                                                                 
+ dense_4 (Dense)             (None, 30)                330       
+                                                                 
+=================================================================
+Total params: 755
+Trainable params: 755
+Non-trainable params: 0
+_________________________________________________________________
+</code></pre>
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="rgoozvCwFPQO" data-outputId="841b51df-a266-4f64-808a-bd956d283308">
+<div class="sourceCode" id="cb23"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="co"># View the encoder architecture</span></span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a>encoder.summary()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Model: &quot;model_4&quot;
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ input_2 (InputLayer)        [(None, 30)]              0         
+                                                                 
+ dense_2 (Dense)             (None, 10)                310       
+                                                                 
+ dense_3 (Dense)             (None, 5)                 55        
+                                                                 
+=================================================================
+Total params: 365
+Trainable params: 365
+Non-trainable params: 0
+_________________________________________________________________
+</code></pre>
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="BnQWbyBYFPQO" data-outputId="4067fbe4-940b-4eb1-ff85-ffbe2605aba8">
+<div class="sourceCode" id="cb25"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="co"># View the decoder architecture</span></span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a>decoder.summary()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Model: &quot;model_5&quot;
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ input_3 (InputLayer)        [(None, 5)]               0         
+                                                                 
+ dense_5 (Dense)             (None, 10)                60        
+                                                                 
+ dense_4 (Dense)             (None, 30)                330       
+                                                                 
+=================================================================
+Total params: 390
+Trainable params: 390
+Non-trainable params: 0
+_________________________________________________________________
+</code></pre>
+</div>
+</div>
+<section id="training" class="cell markdown" id="Gs1wMekoFPQO">
+<h3>Training</h3>
+<p>Below we'll compile and train the model. <strong>Notice that in our
+call to <code>fit</code> we use <code>X_train</code> as both the
+features and the targets</strong>. Our autoencoder is not a traditional
+machine learning model. It uses self-supervised learning, in which we
+want the output to equal the input. This might seem easy, but we are
+forcing the autoencoder model to compress the features down to a much
+lower dimensionality, in the bottlenecked autoencoder architecture.
+Thus, it may have to learn a complex non-linear function to accomplish
+this task.</p>
+<p>Note that, as always, we do not use the test set features to train
+the autoencoder. Test set features are held out for all stages of
+training including dimensionality reduction.</p>
+<p>We'll train for quite a while (1000 epochs). If all goes well, you'll
+see afterwards as to why we train for such a long time.</p>
+</section>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="Jre5RwClFPQP"
+data-nbgrader="{&quot;grade&quot;:false,&quot;grade_id&quot;:&quot;cell-92f803b5ba04dadd&quot;,&quot;locked&quot;:false,&quot;schema_version&quot;:3,&quot;solution&quot;:false}"
+data-outputId="f1e149ac-e6f1-4273-fd42-e5ede33f3c6c">
+<div class="sourceCode" id="cb27"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Compile the model, using the Adam optimizer for gradient descent,</span></span>
+<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a><span class="co"># and using MSE as the loss function.</span></span>
+<span id="cb27-3"><a href="#cb27-3" aria-hidden="true" tabindex="-1"></a>autoencoder.<span class="bu">compile</span>(optimizer<span class="op">=</span><span class="st">&quot;adam&quot;</span>, loss<span class="op">=</span><span class="st">&quot;mse&quot;</span>)</span>
+<span id="cb27-4"><a href="#cb27-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-5"><a href="#cb27-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Train our model. Note that X_train serves as both features and targets.</span></span>
+<span id="cb27-6"><a href="#cb27-6" aria-hidden="true" tabindex="-1"></a>n_epochs <span class="op">=</span> <span class="dv">1000</span></span>
+<span id="cb27-7"><a href="#cb27-7" aria-hidden="true" tabindex="-1"></a>history <span class="op">=</span> autoencoder.fit(X_train, X_train, epochs<span class="op">=</span>n_epochs)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Epoch 1/1000
+14/14 [==============================] - 1s 2ms/step - loss: 57489.3711
+Epoch 2/1000
+14/14 [==============================] - 0s 2ms/step - loss: 55095.4258
+Epoch 3/1000
+14/14 [==============================] - 0s 2ms/step - loss: 53300.4258
+Epoch 4/1000
+14/14 [==============================] - 0s 2ms/step - loss: 51301.7852
+Epoch 5/1000
+14/14 [==============================] - 0s 2ms/step - loss: 48280.6523
+Epoch 6/1000
+14/14 [==============================] - 0s 2ms/step - loss: 44012.1641
+Epoch 7/1000
+14/14 [==============================] - 0s 2ms/step - loss: 37393.8516
+Epoch 8/1000
+14/14 [==============================] - 0s 2ms/step - loss: 27325.8867
+Epoch 9/1000
+14/14 [==============================] - 0s 2ms/step - loss: 15553.9521
+Epoch 10/1000
+14/14 [==============================] - 0s 2ms/step - loss: 5458.4370
+Epoch 11/1000
+14/14 [==============================] - 0s 2ms/step - loss: 950.1992
+Epoch 12/1000
+14/14 [==============================] - 0s 2ms/step - loss: 602.0994
+Epoch 13/1000
+14/14 [==============================] - 0s 2ms/step - loss: 528.3475
+Epoch 14/1000
+14/14 [==============================] - 0s 2ms/step - loss: 484.0470
+Epoch 15/1000
+14/14 [==============================] - 0s 3ms/step - loss: 482.3115
+Epoch 16/1000
+14/14 [==============================] - 0s 2ms/step - loss: 479.4382
+Epoch 17/1000
+14/14 [==============================] - 0s 3ms/step - loss: 481.8127
+Epoch 18/1000
+14/14 [==============================] - 0s 2ms/step - loss: 483.2962
+Epoch 19/1000
+14/14 [==============================] - 0s 2ms/step - loss: 478.9572
+Epoch 20/1000
+14/14 [==============================] - 0s 2ms/step - loss: 478.5510
+Epoch 21/1000
+14/14 [==============================] - 0s 3ms/step - loss: 477.9041
+Epoch 22/1000
+14/14 [==============================] - 0s 2ms/step - loss: 480.1437
+Epoch 23/1000
+14/14 [==============================] - 0s 2ms/step - loss: 481.9565
+Epoch 24/1000
+14/14 [==============================] - 0s 2ms/step - loss: 481.8534
+Epoch 25/1000
+14/14 [==============================] - 0s 2ms/step - loss: 479.8353
+Epoch 26/1000
+14/14 [==============================] - 0s 3ms/step - loss: 478.9940
+Epoch 27/1000
+14/14 [==============================] - 0s 2ms/step - loss: 476.4763
+Epoch 28/1000
+14/14 [==============================] - 0s 2ms/step - loss: 477.5232
+Epoch 29/1000
+14/14 [==============================] - 0s 3ms/step - loss: 476.4271
+Epoch 30/1000
+14/14 [==============================] - 0s 2ms/step - loss: 472.1888
+Epoch 31/1000
+14/14 [==============================] - 0s 2ms/step - loss: 473.2156
+Epoch 32/1000
+14/14 [==============================] - 0s 2ms/step - loss: 477.4308
+Epoch 33/1000
+14/14 [==============================] - 0s 2ms/step - loss: 472.3550
+Epoch 34/1000
+14/14 [==============================] - 0s 2ms/step - loss: 475.8521
+Epoch 35/1000
+14/14 [==============================] - 0s 2ms/step - loss: 473.1357
+Epoch 36/1000
+14/14 [==============================] - 0s 2ms/step - loss: 476.8185
+Epoch 37/1000
+14/14 [==============================] - 0s 2ms/step - loss: 474.8770
+Epoch 38/1000
+14/14 [==============================] - 0s 2ms/step - loss: 473.1303
+Epoch 39/1000
+14/14 [==============================] - 0s 2ms/step - loss: 470.0116
+Epoch 40/1000
+14/14 [==============================] - 0s 2ms/step - loss: 469.1219
+Epoch 41/1000
+14/14 [==============================] - 0s 2ms/step - loss: 469.1601
+Epoch 42/1000
+14/14 [==============================] - 0s 2ms/step - loss: 467.7432
+Epoch 43/1000
+14/14 [==============================] - 0s 2ms/step - loss: 469.0632
+Epoch 44/1000
+14/14 [==============================] - 0s 2ms/step - loss: 469.4367
+Epoch 45/1000
+14/14 [==============================] - 0s 2ms/step - loss: 473.8618
+Epoch 46/1000
+14/14 [==============================] - 0s 2ms/step - loss: 474.2328
+Epoch 47/1000
+14/14 [==============================] - 0s 2ms/step - loss: 466.1366
+Epoch 48/1000
+14/14 [==============================] - 0s 2ms/step - loss: 466.6012
+Epoch 49/1000
+14/14 [==============================] - 0s 2ms/step - loss: 464.0490
+Epoch 50/1000
+14/14 [==============================] - 0s 2ms/step - loss: 463.8764
+Epoch 51/1000
+14/14 [==============================] - 0s 2ms/step - loss: 465.8014
+Epoch 52/1000
+14/14 [==============================] - 0s 2ms/step - loss: 464.5289
+Epoch 53/1000
+14/14 [==============================] - 0s 2ms/step - loss: 463.5949
+Epoch 54/1000
+14/14 [==============================] - 0s 2ms/step - loss: 462.7185
+Epoch 55/1000
+14/14 [==============================] - 0s 2ms/step - loss: 466.0359
+Epoch 56/1000
+14/14 [==============================] - 0s 2ms/step - loss: 461.7429
+Epoch 57/1000
+14/14 [==============================] - 0s 2ms/step - loss: 461.7243
+Epoch 58/1000
+14/14 [==============================] - 0s 2ms/step - loss: 459.8502
+Epoch 59/1000
+14/14 [==============================] - 0s 2ms/step - loss: 461.9187
+Epoch 60/1000
+14/14 [==============================] - 0s 2ms/step - loss: 458.1080
+Epoch 61/1000
+14/14 [==============================] - 0s 2ms/step - loss: 459.8220
+Epoch 62/1000
+14/14 [==============================] - 0s 2ms/step - loss: 465.0123
+Epoch 63/1000
+14/14 [==============================] - 0s 2ms/step - loss: 458.3141
+Epoch 64/1000
+14/14 [==============================] - 0s 2ms/step - loss: 456.1826
+Epoch 65/1000
+14/14 [==============================] - 0s 2ms/step - loss: 455.3328
+Epoch 66/1000
+14/14 [==============================] - 0s 2ms/step - loss: 459.4839
+Epoch 67/1000
+14/14 [==============================] - 0s 2ms/step - loss: 458.1520
+Epoch 68/1000
+14/14 [==============================] - 0s 2ms/step - loss: 459.5042
+Epoch 69/1000
+14/14 [==============================] - 0s 2ms/step - loss: 457.6781
+Epoch 70/1000
+14/14 [==============================] - 0s 2ms/step - loss: 453.5038
+Epoch 71/1000
+14/14 [==============================] - 0s 2ms/step - loss: 453.7583
+Epoch 72/1000
+14/14 [==============================] - 0s 2ms/step - loss: 456.2129
+Epoch 73/1000
+14/14 [==============================] - 0s 2ms/step - loss: 452.9088
+Epoch 74/1000
+14/14 [==============================] - 0s 2ms/step - loss: 454.4494
+Epoch 75/1000
+14/14 [==============================] - 0s 2ms/step - loss: 459.2118
+Epoch 76/1000
+14/14 [==============================] - 0s 2ms/step - loss: 451.8563
+Epoch 77/1000
+14/14 [==============================] - 0s 2ms/step - loss: 454.7816
+Epoch 78/1000
+14/14 [==============================] - 0s 2ms/step - loss: 453.3164
+Epoch 79/1000
+14/14 [==============================] - 0s 2ms/step - loss: 452.2605
+Epoch 80/1000
+14/14 [==============================] - 0s 2ms/step - loss: 451.3962
+Epoch 81/1000
+14/14 [==============================] - 0s 2ms/step - loss: 451.6250
+Epoch 82/1000
+14/14 [==============================] - 0s 2ms/step - loss: 449.9032
+Epoch 83/1000
+14/14 [==============================] - 0s 2ms/step - loss: 448.4638
+Epoch 84/1000
+14/14 [==============================] - 0s 2ms/step - loss: 446.0547
+Epoch 85/1000
+14/14 [==============================] - 0s 2ms/step - loss: 446.5387
+Epoch 86/1000
+14/14 [==============================] - 0s 2ms/step - loss: 446.2909
+Epoch 87/1000
+14/14 [==============================] - 0s 2ms/step - loss: 444.7463
+Epoch 88/1000
+14/14 [==============================] - 0s 2ms/step - loss: 444.3012
+Epoch 89/1000
+14/14 [==============================] - 0s 2ms/step - loss: 446.1333
+Epoch 90/1000
+14/14 [==============================] - 0s 2ms/step - loss: 443.3955
+Epoch 91/1000
+14/14 [==============================] - 0s 2ms/step - loss: 446.1954
+Epoch 92/1000
+14/14 [==============================] - 0s 2ms/step - loss: 444.5464
+Epoch 93/1000
+14/14 [==============================] - 0s 2ms/step - loss: 442.1065
+Epoch 94/1000
+14/14 [==============================] - 0s 2ms/step - loss: 442.7086
+Epoch 95/1000
+14/14 [==============================] - 0s 2ms/step - loss: 441.2807
+Epoch 96/1000
+14/14 [==============================] - 0s 2ms/step - loss: 441.2640
+Epoch 97/1000
+14/14 [==============================] - 0s 2ms/step - loss: 446.3838
+Epoch 98/1000
+14/14 [==============================] - 0s 2ms/step - loss: 440.2948
+Epoch 99/1000
+14/14 [==============================] - 0s 2ms/step - loss: 442.6494
+Epoch 100/1000
+14/14 [==============================] - 0s 2ms/step - loss: 444.4335
+Epoch 101/1000
+14/14 [==============================] - 0s 2ms/step - loss: 438.8650
+Epoch 102/1000
+14/14 [==============================] - 0s 2ms/step - loss: 435.5334
+Epoch 103/1000
+14/14 [==============================] - 0s 2ms/step - loss: 436.8310
+Epoch 104/1000
+14/14 [==============================] - 0s 2ms/step - loss: 434.9228
+Epoch 105/1000
+14/14 [==============================] - 0s 2ms/step - loss: 433.9940
+Epoch 106/1000
+14/14 [==============================] - 0s 2ms/step - loss: 436.3064
+Epoch 107/1000
+14/14 [==============================] - 0s 2ms/step - loss: 433.6157
+Epoch 108/1000
+14/14 [==============================] - 0s 2ms/step - loss: 435.5334
+Epoch 109/1000
+14/14 [==============================] - 0s 2ms/step - loss: 435.8078
+Epoch 110/1000
+14/14 [==============================] - 0s 2ms/step - loss: 432.9033
+Epoch 111/1000
+14/14 [==============================] - 0s 2ms/step - loss: 432.7215
+Epoch 112/1000
+14/14 [==============================] - 0s 2ms/step - loss: 437.0567
+Epoch 113/1000
+14/14 [==============================] - 0s 2ms/step - loss: 430.0520
+Epoch 114/1000
+14/14 [==============================] - 0s 2ms/step - loss: 425.7778
+Epoch 115/1000
+14/14 [==============================] - 0s 2ms/step - loss: 429.8893
+Epoch 116/1000
+14/14 [==============================] - 0s 2ms/step - loss: 423.2982
+Epoch 117/1000
+14/14 [==============================] - 0s 2ms/step - loss: 427.8219
+Epoch 118/1000
+14/14 [==============================] - 0s 2ms/step - loss: 433.9991
+Epoch 119/1000
+14/14 [==============================] - 0s 2ms/step - loss: 424.0180
+Epoch 120/1000
+14/14 [==============================] - 0s 2ms/step - loss: 420.8587
+Epoch 121/1000
+14/14 [==============================] - 0s 2ms/step - loss: 418.5614
+Epoch 122/1000
+14/14 [==============================] - 0s 2ms/step - loss: 421.2352
+Epoch 123/1000
+14/14 [==============================] - 0s 2ms/step - loss: 421.4711
+Epoch 124/1000
+14/14 [==============================] - 0s 2ms/step - loss: 419.4402
+Epoch 125/1000
+14/14 [==============================] - 0s 2ms/step - loss: 416.3554
+Epoch 126/1000
+14/14 [==============================] - 0s 2ms/step - loss: 422.2058
+Epoch 127/1000
+14/14 [==============================] - 0s 2ms/step - loss: 412.3597
+Epoch 128/1000
+14/14 [==============================] - 0s 2ms/step - loss: 411.2791
+Epoch 129/1000
+14/14 [==============================] - 0s 2ms/step - loss: 410.1690
+Epoch 130/1000
+14/14 [==============================] - 0s 2ms/step - loss: 410.2119
+Epoch 131/1000
+14/14 [==============================] - 0s 2ms/step - loss: 411.8768
+Epoch 132/1000
+14/14 [==============================] - 0s 3ms/step - loss: 407.9594
+Epoch 133/1000
+14/14 [==============================] - 0s 2ms/step - loss: 404.0227
+Epoch 134/1000
+14/14 [==============================] - 0s 2ms/step - loss: 403.1422
+Epoch 135/1000
+14/14 [==============================] - 0s 2ms/step - loss: 399.5946
+Epoch 136/1000
+14/14 [==============================] - 0s 2ms/step - loss: 399.2195
+Epoch 137/1000
+14/14 [==============================] - 0s 2ms/step - loss: 394.6609
+Epoch 138/1000
+14/14 [==============================] - 0s 3ms/step - loss: 393.0089
+Epoch 139/1000
+14/14 [==============================] - 0s 2ms/step - loss: 391.3462
+Epoch 140/1000
+14/14 [==============================] - 0s 2ms/step - loss: 391.7874
+Epoch 141/1000
+14/14 [==============================] - 0s 2ms/step - loss: 391.9121
+Epoch 142/1000
+14/14 [==============================] - 0s 2ms/step - loss: 385.8352
+Epoch 143/1000
+14/14 [==============================] - 0s 2ms/step - loss: 391.8575
+Epoch 144/1000
+14/14 [==============================] - 0s 2ms/step - loss: 383.6532
+Epoch 145/1000
+14/14 [==============================] - 0s 2ms/step - loss: 380.4972
+Epoch 146/1000
+14/14 [==============================] - 0s 2ms/step - loss: 376.2320
+Epoch 147/1000
+14/14 [==============================] - 0s 2ms/step - loss: 372.8124
+Epoch 148/1000
+14/14 [==============================] - 0s 2ms/step - loss: 367.3981
+Epoch 149/1000
+14/14 [==============================] - 0s 3ms/step - loss: 370.4776
+Epoch 150/1000
+14/14 [==============================] - 0s 2ms/step - loss: 369.3709
+Epoch 151/1000
+14/14 [==============================] - 0s 2ms/step - loss: 360.4128
+Epoch 152/1000
+14/14 [==============================] - 0s 2ms/step - loss: 357.1227
+Epoch 153/1000
+14/14 [==============================] - 0s 2ms/step - loss: 348.2086
+Epoch 154/1000
+14/14 [==============================] - 0s 2ms/step - loss: 350.1217
+Epoch 155/1000
+14/14 [==============================] - 0s 2ms/step - loss: 346.7236
+Epoch 156/1000
+14/14 [==============================] - 0s 2ms/step - loss: 349.4158
+Epoch 157/1000
+14/14 [==============================] - 0s 2ms/step - loss: 336.1676
+Epoch 158/1000
+14/14 [==============================] - 0s 2ms/step - loss: 334.2813
+Epoch 159/1000
+14/14 [==============================] - 0s 3ms/step - loss: 328.3838
+Epoch 160/1000
+14/14 [==============================] - 0s 2ms/step - loss: 319.3140
+Epoch 161/1000
+14/14 [==============================] - 0s 2ms/step - loss: 314.7409
+Epoch 162/1000
+14/14 [==============================] - 0s 2ms/step - loss: 312.6167
+Epoch 163/1000
+14/14 [==============================] - 0s 2ms/step - loss: 303.9678
+Epoch 164/1000
+14/14 [==============================] - 0s 2ms/step - loss: 298.6613
+Epoch 165/1000
+14/14 [==============================] - 0s 2ms/step - loss: 298.7638
+Epoch 166/1000
+14/14 [==============================] - 0s 2ms/step - loss: 286.2769
+Epoch 167/1000
+14/14 [==============================] - 0s 2ms/step - loss: 284.7809
+Epoch 168/1000
+14/14 [==============================] - 0s 2ms/step - loss: 279.8135
+Epoch 169/1000
+14/14 [==============================] - 0s 2ms/step - loss: 272.3746
+Epoch 170/1000
+14/14 [==============================] - 0s 2ms/step - loss: 266.9106
+Epoch 171/1000
+14/14 [==============================] - 0s 2ms/step - loss: 259.9348
+Epoch 172/1000
+14/14 [==============================] - 0s 2ms/step - loss: 253.1879
+Epoch 173/1000
+14/14 [==============================] - 0s 2ms/step - loss: 252.5879
+Epoch 174/1000
+14/14 [==============================] - 0s 2ms/step - loss: 244.1758
+Epoch 175/1000
+14/14 [==============================] - 0s 2ms/step - loss: 236.9014
+Epoch 176/1000
+14/14 [==============================] - 0s 2ms/step - loss: 228.7162
+Epoch 177/1000
+14/14 [==============================] - 0s 2ms/step - loss: 224.2988
+Epoch 178/1000
+14/14 [==============================] - 0s 2ms/step - loss: 218.3205
+Epoch 179/1000
+14/14 [==============================] - 0s 2ms/step - loss: 211.3917
+Epoch 180/1000
+14/14 [==============================] - 0s 2ms/step - loss: 208.3650
+Epoch 181/1000
+14/14 [==============================] - 0s 2ms/step - loss: 200.0254
+Epoch 182/1000
+14/14 [==============================] - 0s 3ms/step - loss: 193.7478
+Epoch 183/1000
+14/14 [==============================] - 0s 2ms/step - loss: 188.3216
+Epoch 184/1000
+14/14 [==============================] - 0s 2ms/step - loss: 182.4364
+Epoch 185/1000
+14/14 [==============================] - 0s 2ms/step - loss: 176.9007
+Epoch 186/1000
+14/14 [==============================] - 0s 2ms/step - loss: 175.8482
+Epoch 187/1000
+14/14 [==============================] - 0s 2ms/step - loss: 167.2690
+Epoch 188/1000
+14/14 [==============================] - 0s 2ms/step - loss: 161.4999
+Epoch 189/1000
+14/14 [==============================] - 0s 2ms/step - loss: 155.3647
+Epoch 190/1000
+14/14 [==============================] - 0s 2ms/step - loss: 149.6943
+Epoch 191/1000
+14/14 [==============================] - 0s 2ms/step - loss: 145.5070
+Epoch 192/1000
+14/14 [==============================] - 0s 2ms/step - loss: 140.0112
+Epoch 193/1000
+14/14 [==============================] - 0s 2ms/step - loss: 137.7077
+Epoch 194/1000
+14/14 [==============================] - 0s 2ms/step - loss: 133.1400
+Epoch 195/1000
+14/14 [==============================] - 0s 2ms/step - loss: 130.0418
+Epoch 196/1000
+14/14 [==============================] - 0s 2ms/step - loss: 126.4113
+Epoch 197/1000
+14/14 [==============================] - 0s 2ms/step - loss: 122.1147
+Epoch 198/1000
+14/14 [==============================] - 0s 3ms/step - loss: 119.2566
+Epoch 199/1000
+14/14 [==============================] - 0s 2ms/step - loss: 116.7543
+Epoch 200/1000
+14/14 [==============================] - 0s 3ms/step - loss: 112.6726
+Epoch 201/1000
+14/14 [==============================] - 0s 2ms/step - loss: 112.2845
+Epoch 202/1000
+14/14 [==============================] - 0s 2ms/step - loss: 109.3644
+Epoch 203/1000
+14/14 [==============================] - 0s 2ms/step - loss: 105.3158
+Epoch 204/1000
+14/14 [==============================] - 0s 2ms/step - loss: 107.0518
+Epoch 205/1000
+14/14 [==============================] - 0s 2ms/step - loss: 100.7043
+Epoch 206/1000
+14/14 [==============================] - 0s 2ms/step - loss: 98.6142
+Epoch 207/1000
+14/14 [==============================] - 0s 2ms/step - loss: 101.2422
+Epoch 208/1000
+14/14 [==============================] - 0s 2ms/step - loss: 97.7738
+Epoch 209/1000
+14/14 [==============================] - 0s 2ms/step - loss: 95.8876
+Epoch 210/1000
+14/14 [==============================] - 0s 2ms/step - loss: 94.6252
+Epoch 211/1000
+14/14 [==============================] - 0s 2ms/step - loss: 91.8712
+Epoch 212/1000
+14/14 [==============================] - 0s 2ms/step - loss: 88.8942
+Epoch 213/1000
+14/14 [==============================] - 0s 2ms/step - loss: 87.8606
+Epoch 214/1000
+14/14 [==============================] - 0s 2ms/step - loss: 88.9429
+Epoch 215/1000
+14/14 [==============================] - 0s 2ms/step - loss: 91.6154
+Epoch 216/1000
+14/14 [==============================] - 0s 2ms/step - loss: 88.5970
+Epoch 217/1000
+14/14 [==============================] - 0s 2ms/step - loss: 84.0615
+Epoch 218/1000
+14/14 [==============================] - 0s 2ms/step - loss: 82.2619
+Epoch 219/1000
+14/14 [==============================] - 0s 2ms/step - loss: 81.6453
+Epoch 220/1000
+14/14 [==============================] - 0s 2ms/step - loss: 80.5079
+Epoch 221/1000
+14/14 [==============================] - 0s 2ms/step - loss: 81.1752
+Epoch 222/1000
+14/14 [==============================] - 0s 2ms/step - loss: 80.2589
+Epoch 223/1000
+14/14 [==============================] - 0s 2ms/step - loss: 79.3889
+Epoch 224/1000
+14/14 [==============================] - 0s 2ms/step - loss: 79.9258
+Epoch 225/1000
+14/14 [==============================] - 0s 2ms/step - loss: 76.6867
+Epoch 226/1000
+14/14 [==============================] - 0s 2ms/step - loss: 76.2246
+Epoch 227/1000
+14/14 [==============================] - 0s 2ms/step - loss: 76.9290
+Epoch 228/1000
+14/14 [==============================] - 0s 2ms/step - loss: 76.3505
+Epoch 229/1000
+14/14 [==============================] - 0s 2ms/step - loss: 75.4418
+Epoch 230/1000
+14/14 [==============================] - 0s 2ms/step - loss: 75.5625
+Epoch 231/1000
+14/14 [==============================] - 0s 2ms/step - loss: 77.4789
+Epoch 232/1000
+14/14 [==============================] - 0s 2ms/step - loss: 73.6639
+Epoch 233/1000
+14/14 [==============================] - 0s 2ms/step - loss: 74.5647
+Epoch 234/1000
+14/14 [==============================] - 0s 2ms/step - loss: 72.3572
+Epoch 235/1000
+14/14 [==============================] - 0s 2ms/step - loss: 73.6380
+Epoch 236/1000
+14/14 [==============================] - 0s 3ms/step - loss: 72.3846
+Epoch 237/1000
+14/14 [==============================] - 0s 3ms/step - loss: 71.9706
+Epoch 238/1000
+14/14 [==============================] - 0s 3ms/step - loss: 71.6131
+Epoch 239/1000
+14/14 [==============================] - 0s 3ms/step - loss: 70.6136
+Epoch 240/1000
+14/14 [==============================] - 0s 3ms/step - loss: 70.6607
+Epoch 241/1000
+14/14 [==============================] - 0s 3ms/step - loss: 69.9539
+Epoch 242/1000
+14/14 [==============================] - 0s 3ms/step - loss: 69.5392
+Epoch 243/1000
+14/14 [==============================] - 0s 2ms/step - loss: 69.2460
+Epoch 244/1000
+14/14 [==============================] - 0s 3ms/step - loss: 69.6074
+Epoch 245/1000
+14/14 [==============================] - 0s 3ms/step - loss: 67.7890
+Epoch 246/1000
+14/14 [==============================] - 0s 2ms/step - loss: 68.7418
+Epoch 247/1000
+14/14 [==============================] - 0s 3ms/step - loss: 67.9021
+Epoch 248/1000
+14/14 [==============================] - 0s 4ms/step - loss: 67.7731
+Epoch 249/1000
+14/14 [==============================] - 0s 3ms/step - loss: 67.8069
+Epoch 250/1000
+14/14 [==============================] - 0s 3ms/step - loss: 67.2636
+Epoch 251/1000
+14/14 [==============================] - 0s 3ms/step - loss: 67.4764
+Epoch 252/1000
+14/14 [==============================] - 0s 2ms/step - loss: 67.2613
+Epoch 253/1000
+14/14 [==============================] - 0s 3ms/step - loss: 66.7334
+Epoch 254/1000
+14/14 [==============================] - 0s 2ms/step - loss: 66.5160
+Epoch 255/1000
+14/14 [==============================] - 0s 3ms/step - loss: 66.4395
+Epoch 256/1000
+14/14 [==============================] - 0s 3ms/step - loss: 65.6235
+Epoch 257/1000
+14/14 [==============================] - 0s 3ms/step - loss: 65.9651
+Epoch 258/1000
+14/14 [==============================] - 0s 3ms/step - loss: 65.9578
+Epoch 259/1000
+14/14 [==============================] - 0s 3ms/step - loss: 65.9005
+Epoch 260/1000
+14/14 [==============================] - 0s 3ms/step - loss: 64.9821
+Epoch 261/1000
+14/14 [==============================] - 0s 3ms/step - loss: 64.4222
+Epoch 262/1000
+14/14 [==============================] - 0s 3ms/step - loss: 64.4329
+Epoch 263/1000
+14/14 [==============================] - 0s 3ms/step - loss: 64.7831
+Epoch 264/1000
+14/14 [==============================] - 0s 2ms/step - loss: 68.3422
+Epoch 265/1000
+14/14 [==============================] - 0s 2ms/step - loss: 65.0359
+Epoch 266/1000
+14/14 [==============================] - 0s 2ms/step - loss: 65.8693
+Epoch 267/1000
+14/14 [==============================] - 0s 2ms/step - loss: 65.4531
+Epoch 268/1000
+14/14 [==============================] - 0s 3ms/step - loss: 68.5060
+Epoch 269/1000
+14/14 [==============================] - 0s 3ms/step - loss: 66.7626
+Epoch 270/1000
+14/14 [==============================] - 0s 2ms/step - loss: 66.0158
+Epoch 271/1000
+14/14 [==============================] - 0s 3ms/step - loss: 62.7583
+Epoch 272/1000
+14/14 [==============================] - 0s 3ms/step - loss: 72.9753
+Epoch 273/1000
+14/14 [==============================] - 0s 3ms/step - loss: 65.6174
+Epoch 274/1000
+14/14 [==============================] - 0s 2ms/step - loss: 63.6295
+Epoch 275/1000
+14/14 [==============================] - 0s 2ms/step - loss: 64.6073
+Epoch 276/1000
+14/14 [==============================] - 0s 3ms/step - loss: 61.9853
+Epoch 277/1000
+14/14 [==============================] - 0s 3ms/step - loss: 64.2516
+Epoch 278/1000
+14/14 [==============================] - 0s 3ms/step - loss: 62.2901
+Epoch 279/1000
+14/14 [==============================] - 0s 3ms/step - loss: 62.4945
+Epoch 280/1000
+14/14 [==============================] - 0s 3ms/step - loss: 61.2956
+Epoch 281/1000
+14/14 [==============================] - 0s 3ms/step - loss: 61.7323
+Epoch 282/1000
+14/14 [==============================] - 0s 2ms/step - loss: 62.0259
+Epoch 283/1000
+14/14 [==============================] - 0s 3ms/step - loss: 62.4031
+Epoch 284/1000
+14/14 [==============================] - 0s 2ms/step - loss: 62.4263
+Epoch 285/1000
+14/14 [==============================] - 0s 3ms/step - loss: 61.1899
+Epoch 286/1000
+14/14 [==============================] - 0s 2ms/step - loss: 62.2988
+Epoch 287/1000
+14/14 [==============================] - 0s 2ms/step - loss: 61.7408
+Epoch 288/1000
+14/14 [==============================] - 0s 2ms/step - loss: 63.5454
+Epoch 289/1000
+14/14 [==============================] - 0s 3ms/step - loss: 62.5421
+Epoch 290/1000
+14/14 [==============================] - 0s 3ms/step - loss: 62.5874
+Epoch 291/1000
+14/14 [==============================] - 0s 2ms/step - loss: 64.5316
+Epoch 292/1000
+14/14 [==============================] - 0s 2ms/step - loss: 61.2915
+Epoch 293/1000
+14/14 [==============================] - 0s 2ms/step - loss: 61.9673
+Epoch 294/1000
+14/14 [==============================] - 0s 2ms/step - loss: 64.6434
+Epoch 295/1000
+14/14 [==============================] - 0s 2ms/step - loss: 63.3434
+Epoch 296/1000
+14/14 [==============================] - 0s 3ms/step - loss: 60.8491
+Epoch 297/1000
+14/14 [==============================] - 0s 2ms/step - loss: 60.3191
+Epoch 298/1000
+14/14 [==============================] - 0s 3ms/step - loss: 60.3138
+Epoch 299/1000
+14/14 [==============================] - 0s 2ms/step - loss: 59.8466
+Epoch 300/1000
+14/14 [==============================] - 0s 2ms/step - loss: 59.3651
+Epoch 301/1000
+14/14 [==============================] - 0s 2ms/step - loss: 58.5391
+Epoch 302/1000
+14/14 [==============================] - 0s 2ms/step - loss: 62.0633
+Epoch 303/1000
+14/14 [==============================] - 0s 2ms/step - loss: 59.3018
+Epoch 304/1000
+14/14 [==============================] - 0s 2ms/step - loss: 60.2063
+Epoch 305/1000
+14/14 [==============================] - 0s 3ms/step - loss: 59.5919
+Epoch 306/1000
+14/14 [==============================] - 0s 2ms/step - loss: 58.8397
+Epoch 307/1000
+14/14 [==============================] - 0s 3ms/step - loss: 59.2000
+Epoch 308/1000
+14/14 [==============================] - 0s 2ms/step - loss: 60.2846
+Epoch 309/1000
+14/14 [==============================] - 0s 3ms/step - loss: 58.8416
+Epoch 310/1000
+14/14 [==============================] - 0s 2ms/step - loss: 58.6344
+Epoch 311/1000
+14/14 [==============================] - 0s 2ms/step - loss: 59.7220
+Epoch 312/1000
+14/14 [==============================] - 0s 2ms/step - loss: 59.8078
+Epoch 313/1000
+14/14 [==============================] - 0s 2ms/step - loss: 59.4031
+Epoch 314/1000
+14/14 [==============================] - 0s 2ms/step - loss: 59.3944
+Epoch 315/1000
+14/14 [==============================] - 0s 2ms/step - loss: 58.7988
+Epoch 316/1000
+14/14 [==============================] - 0s 3ms/step - loss: 56.5874
+Epoch 317/1000
+14/14 [==============================] - 0s 3ms/step - loss: 57.3591
+Epoch 318/1000
+14/14 [==============================] - 0s 3ms/step - loss: 60.6641
+Epoch 319/1000
+14/14 [==============================] - 0s 3ms/step - loss: 58.8110
+Epoch 320/1000
+14/14 [==============================] - 0s 4ms/step - loss: 58.3054
+Epoch 321/1000
+14/14 [==============================] - 0s 4ms/step - loss: 56.1378
+Epoch 322/1000
+14/14 [==============================] - 0s 3ms/step - loss: 56.3437
+Epoch 323/1000
+14/14 [==============================] - 0s 5ms/step - loss: 55.9469
+Epoch 324/1000
+14/14 [==============================] - 0s 3ms/step - loss: 56.1944
+Epoch 325/1000
+14/14 [==============================] - 0s 3ms/step - loss: 56.2705
+Epoch 326/1000
+14/14 [==============================] - 0s 3ms/step - loss: 58.6367
+Epoch 327/1000
+14/14 [==============================] - 0s 3ms/step - loss: 57.6420
+Epoch 328/1000
+14/14 [==============================] - 0s 3ms/step - loss: 57.1246
+Epoch 329/1000
+14/14 [==============================] - 0s 3ms/step - loss: 55.8775
+Epoch 330/1000
+14/14 [==============================] - 0s 3ms/step - loss: 64.7729
+Epoch 331/1000
+14/14 [==============================] - 0s 2ms/step - loss: 58.0038
+Epoch 332/1000
+14/14 [==============================] - 0s 3ms/step - loss: 56.0470
+Epoch 333/1000
+14/14 [==============================] - 0s 3ms/step - loss: 54.4388
+Epoch 334/1000
+14/14 [==============================] - 0s 3ms/step - loss: 54.4265
+Epoch 335/1000
+14/14 [==============================] - 0s 3ms/step - loss: 54.5152
+Epoch 336/1000
+14/14 [==============================] - 0s 3ms/step - loss: 53.6087
+Epoch 337/1000
+14/14 [==============================] - 0s 3ms/step - loss: 54.1221
+Epoch 338/1000
+14/14 [==============================] - 0s 3ms/step - loss: 54.2622
+Epoch 339/1000
+14/14 [==============================] - 0s 3ms/step - loss: 53.9814
+Epoch 340/1000
+14/14 [==============================] - 0s 2ms/step - loss: 52.7596
+Epoch 341/1000
+14/14 [==============================] - 0s 2ms/step - loss: 53.9731
+Epoch 342/1000
+14/14 [==============================] - 0s 2ms/step - loss: 56.0577
+Epoch 343/1000
+14/14 [==============================] - 0s 2ms/step - loss: 53.8531
+Epoch 344/1000
+14/14 [==============================] - 0s 2ms/step - loss: 53.2804
+Epoch 345/1000
+14/14 [==============================] - 0s 2ms/step - loss: 54.4157
+Epoch 346/1000
+14/14 [==============================] - 0s 2ms/step - loss: 55.7900
+Epoch 347/1000
+14/14 [==============================] - 0s 2ms/step - loss: 56.0779
+Epoch 348/1000
+14/14 [==============================] - 0s 2ms/step - loss: 53.6829
+Epoch 349/1000
+14/14 [==============================] - 0s 3ms/step - loss: 52.5830
+Epoch 350/1000
+14/14 [==============================] - 0s 2ms/step - loss: 52.4539
+Epoch 351/1000
+14/14 [==============================] - 0s 2ms/step - loss: 51.2813
+Epoch 352/1000
+14/14 [==============================] - 0s 2ms/step - loss: 51.4294
+Epoch 353/1000
+14/14 [==============================] - 0s 2ms/step - loss: 51.4242
+Epoch 354/1000
+14/14 [==============================] - 0s 2ms/step - loss: 51.9104
+Epoch 355/1000
+14/14 [==============================] - 0s 2ms/step - loss: 50.4020
+Epoch 356/1000
+14/14 [==============================] - 0s 2ms/step - loss: 52.0313
+Epoch 357/1000
+14/14 [==============================] - 0s 2ms/step - loss: 50.8451
+Epoch 358/1000
+14/14 [==============================] - 0s 2ms/step - loss: 51.1523
+Epoch 359/1000
+14/14 [==============================] - 0s 2ms/step - loss: 53.7199
+Epoch 360/1000
+14/14 [==============================] - 0s 2ms/step - loss: 51.3714
+Epoch 361/1000
+14/14 [==============================] - 0s 2ms/step - loss: 50.3459
+Epoch 362/1000
+14/14 [==============================] - 0s 2ms/step - loss: 49.2547
+Epoch 363/1000
+14/14 [==============================] - 0s 2ms/step - loss: 50.0095
+Epoch 364/1000
+14/14 [==============================] - 0s 2ms/step - loss: 50.2329
+Epoch 365/1000
+14/14 [==============================] - 0s 2ms/step - loss: 49.1871
+Epoch 366/1000
+14/14 [==============================] - 0s 2ms/step - loss: 52.1092
+Epoch 367/1000
+14/14 [==============================] - 0s 3ms/step - loss: 49.0250
+Epoch 368/1000
+14/14 [==============================] - 0s 2ms/step - loss: 49.9756
+Epoch 369/1000
+14/14 [==============================] - 0s 2ms/step - loss: 49.2267
+Epoch 370/1000
+14/14 [==============================] - 0s 2ms/step - loss: 56.6206
+Epoch 371/1000
+14/14 [==============================] - 0s 2ms/step - loss: 50.8177
+Epoch 372/1000
+14/14 [==============================] - 0s 2ms/step - loss: 47.6835
+Epoch 373/1000
+14/14 [==============================] - 0s 2ms/step - loss: 47.2251
+Epoch 374/1000
+14/14 [==============================] - 0s 2ms/step - loss: 47.6357
+Epoch 375/1000
+14/14 [==============================] - 0s 2ms/step - loss: 47.5337
+Epoch 376/1000
+14/14 [==============================] - 0s 2ms/step - loss: 47.5052
+Epoch 377/1000
+14/14 [==============================] - 0s 2ms/step - loss: 46.6322
+Epoch 378/1000
+14/14 [==============================] - 0s 2ms/step - loss: 47.0138
+Epoch 379/1000
+14/14 [==============================] - 0s 2ms/step - loss: 49.8369
+Epoch 380/1000
+14/14 [==============================] - 0s 2ms/step - loss: 46.6706
+Epoch 381/1000
+14/14 [==============================] - 0s 2ms/step - loss: 46.4757
+Epoch 382/1000
+14/14 [==============================] - 0s 3ms/step - loss: 45.1715
+Epoch 383/1000
+14/14 [==============================] - 0s 2ms/step - loss: 45.8034
+Epoch 384/1000
+14/14 [==============================] - 0s 2ms/step - loss: 44.8883
+Epoch 385/1000
+14/14 [==============================] - 0s 2ms/step - loss: 45.7805
+Epoch 386/1000
+14/14 [==============================] - 0s 2ms/step - loss: 45.7439
+Epoch 387/1000
+14/14 [==============================] - 0s 2ms/step - loss: 45.6390
+Epoch 388/1000
+14/14 [==============================] - 0s 2ms/step - loss: 44.2395
+Epoch 389/1000
+14/14 [==============================] - 0s 2ms/step - loss: 46.8330
+Epoch 390/1000
+14/14 [==============================] - 0s 2ms/step - loss: 45.0428
+Epoch 391/1000
+14/14 [==============================] - 0s 2ms/step - loss: 46.0725
+Epoch 392/1000
+14/14 [==============================] - 0s 2ms/step - loss: 45.9399
+Epoch 393/1000
+14/14 [==============================] - 0s 2ms/step - loss: 45.3004
+Epoch 394/1000
+14/14 [==============================] - 0s 2ms/step - loss: 43.7044
+Epoch 395/1000
+14/14 [==============================] - 0s 2ms/step - loss: 44.9134
+Epoch 396/1000
+14/14 [==============================] - 0s 2ms/step - loss: 45.7875
+Epoch 397/1000
+14/14 [==============================] - 0s 2ms/step - loss: 43.1274
+Epoch 398/1000
+14/14 [==============================] - 0s 2ms/step - loss: 43.0992
+Epoch 399/1000
+14/14 [==============================] - 0s 3ms/step - loss: 42.0985
+Epoch 400/1000
+14/14 [==============================] - 0s 2ms/step - loss: 43.5947
+Epoch 401/1000
+14/14 [==============================] - 0s 2ms/step - loss: 41.1904
+Epoch 402/1000
+14/14 [==============================] - 0s 3ms/step - loss: 42.3661
+Epoch 403/1000
+14/14 [==============================] - 0s 3ms/step - loss: 41.6695
+Epoch 404/1000
+14/14 [==============================] - 0s 3ms/step - loss: 41.5165
+Epoch 405/1000
+14/14 [==============================] - 0s 2ms/step - loss: 41.5429
+Epoch 406/1000
+14/14 [==============================] - 0s 2ms/step - loss: 40.3578
+Epoch 407/1000
+14/14 [==============================] - 0s 2ms/step - loss: 40.8409
+Epoch 408/1000
+14/14 [==============================] - 0s 2ms/step - loss: 39.9438
+Epoch 409/1000
+14/14 [==============================] - 0s 2ms/step - loss: 39.7543
+Epoch 410/1000
+14/14 [==============================] - 0s 2ms/step - loss: 41.3355
+Epoch 411/1000
+14/14 [==============================] - 0s 2ms/step - loss: 39.0439
+Epoch 412/1000
+14/14 [==============================] - 0s 2ms/step - loss: 38.3551
+Epoch 413/1000
+14/14 [==============================] - 0s 2ms/step - loss: 38.6962
+Epoch 414/1000
+14/14 [==============================] - 0s 2ms/step - loss: 38.1428
+Epoch 415/1000
+14/14 [==============================] - 0s 2ms/step - loss: 38.3966
+Epoch 416/1000
+14/14 [==============================] - 0s 2ms/step - loss: 38.9820
+Epoch 417/1000
+14/14 [==============================] - 0s 2ms/step - loss: 39.4909
+Epoch 418/1000
+14/14 [==============================] - 0s 2ms/step - loss: 39.0378
+Epoch 419/1000
+14/14 [==============================] - 0s 2ms/step - loss: 36.7509
+Epoch 420/1000
+14/14 [==============================] - 0s 2ms/step - loss: 37.8118
+Epoch 421/1000
+14/14 [==============================] - 0s 2ms/step - loss: 39.8543
+Epoch 422/1000
+14/14 [==============================] - 0s 2ms/step - loss: 40.0788
+Epoch 423/1000
+14/14 [==============================] - 0s 2ms/step - loss: 37.3849
+Epoch 424/1000
+14/14 [==============================] - 0s 2ms/step - loss: 36.5652
+Epoch 425/1000
+14/14 [==============================] - 0s 2ms/step - loss: 34.9524
+Epoch 426/1000
+14/14 [==============================] - 0s 2ms/step - loss: 35.8706
+Epoch 427/1000
+14/14 [==============================] - 0s 2ms/step - loss: 37.2732
+Epoch 428/1000
+14/14 [==============================] - 0s 2ms/step - loss: 37.8503
+Epoch 429/1000
+14/14 [==============================] - 0s 2ms/step - loss: 35.4903
+Epoch 430/1000
+14/14 [==============================] - 0s 2ms/step - loss: 35.9579
+Epoch 431/1000
+14/14 [==============================] - 0s 2ms/step - loss: 34.1121
+Epoch 432/1000
+14/14 [==============================] - 0s 3ms/step - loss: 33.9212
+Epoch 433/1000
+14/14 [==============================] - 0s 2ms/step - loss: 33.7467
+Epoch 434/1000
+14/14 [==============================] - 0s 2ms/step - loss: 35.0296
+Epoch 435/1000
+14/14 [==============================] - 0s 2ms/step - loss: 34.2728
+Epoch 436/1000
+14/14 [==============================] - 0s 2ms/step - loss: 34.3242
+Epoch 437/1000
+14/14 [==============================] - 0s 2ms/step - loss: 33.0912
+Epoch 438/1000
+14/14 [==============================] - 0s 3ms/step - loss: 32.6420
+Epoch 439/1000
+14/14 [==============================] - 0s 2ms/step - loss: 32.3415
+Epoch 440/1000
+14/14 [==============================] - 0s 2ms/step - loss: 33.4680
+Epoch 441/1000
+14/14 [==============================] - 0s 2ms/step - loss: 32.8282
+Epoch 442/1000
+14/14 [==============================] - 0s 3ms/step - loss: 32.6858
+Epoch 443/1000
+14/14 [==============================] - 0s 2ms/step - loss: 31.4766
+Epoch 444/1000
+14/14 [==============================] - 0s 2ms/step - loss: 31.5044
+Epoch 445/1000
+14/14 [==============================] - 0s 2ms/step - loss: 30.9538
+Epoch 446/1000
+14/14 [==============================] - 0s 2ms/step - loss: 30.3058
+Epoch 447/1000
+14/14 [==============================] - 0s 3ms/step - loss: 30.6992
+Epoch 448/1000
+14/14 [==============================] - 0s 2ms/step - loss: 30.2411
+Epoch 449/1000
+14/14 [==============================] - 0s 3ms/step - loss: 30.4359
+Epoch 450/1000
+14/14 [==============================] - 0s 2ms/step - loss: 30.4024
+Epoch 451/1000
+14/14 [==============================] - 0s 2ms/step - loss: 29.7170
+Epoch 452/1000
+14/14 [==============================] - 0s 2ms/step - loss: 29.6670
+Epoch 453/1000
+14/14 [==============================] - 0s 3ms/step - loss: 30.4652
+Epoch 454/1000
+14/14 [==============================] - 0s 2ms/step - loss: 29.1786
+Epoch 455/1000
+14/14 [==============================] - 0s 2ms/step - loss: 29.3608
+Epoch 456/1000
+14/14 [==============================] - 0s 2ms/step - loss: 29.4584
+Epoch 457/1000
+14/14 [==============================] - 0s 2ms/step - loss: 29.2417
+Epoch 458/1000
+14/14 [==============================] - 0s 2ms/step - loss: 28.7846
+Epoch 459/1000
+14/14 [==============================] - 0s 2ms/step - loss: 29.3195
+Epoch 460/1000
+14/14 [==============================] - 0s 2ms/step - loss: 28.6725
+Epoch 461/1000
+14/14 [==============================] - 0s 2ms/step - loss: 29.4680
+Epoch 462/1000
+14/14 [==============================] - 0s 2ms/step - loss: 28.8785
+Epoch 463/1000
+14/14 [==============================] - 0s 2ms/step - loss: 27.9573
+Epoch 464/1000
+14/14 [==============================] - 0s 2ms/step - loss: 28.5251
+Epoch 465/1000
+14/14 [==============================] - 0s 2ms/step - loss: 28.0228
+Epoch 466/1000
+14/14 [==============================] - 0s 2ms/step - loss: 26.8611
+Epoch 467/1000
+14/14 [==============================] - 0s 2ms/step - loss: 26.7090
+Epoch 468/1000
+14/14 [==============================] - 0s 2ms/step - loss: 26.9466
+Epoch 469/1000
+14/14 [==============================] - 0s 2ms/step - loss: 26.7028
+Epoch 470/1000
+14/14 [==============================] - 0s 2ms/step - loss: 26.6344
+Epoch 471/1000
+14/14 [==============================] - 0s 2ms/step - loss: 26.1525
+Epoch 472/1000
+14/14 [==============================] - 0s 2ms/step - loss: 26.7999
+Epoch 473/1000
+14/14 [==============================] - 0s 3ms/step - loss: 27.1176
+Epoch 474/1000
+14/14 [==============================] - 0s 3ms/step - loss: 26.5208
+Epoch 475/1000
+14/14 [==============================] - 0s 3ms/step - loss: 26.3867
+Epoch 476/1000
+14/14 [==============================] - 0s 2ms/step - loss: 25.9870
+Epoch 477/1000
+14/14 [==============================] - 0s 2ms/step - loss: 26.8978
+Epoch 478/1000
+14/14 [==============================] - 0s 3ms/step - loss: 26.0349
+Epoch 479/1000
+14/14 [==============================] - 0s 2ms/step - loss: 25.3027
+Epoch 480/1000
+14/14 [==============================] - 0s 3ms/step - loss: 25.4827
+Epoch 481/1000
+14/14 [==============================] - 0s 2ms/step - loss: 25.0542
+Epoch 482/1000
+14/14 [==============================] - 0s 2ms/step - loss: 25.0743
+Epoch 483/1000
+14/14 [==============================] - 0s 2ms/step - loss: 25.7071
+Epoch 484/1000
+14/14 [==============================] - 0s 3ms/step - loss: 24.8952
+Epoch 485/1000
+14/14 [==============================] - 0s 2ms/step - loss: 24.6846
+Epoch 486/1000
+14/14 [==============================] - 0s 2ms/step - loss: 24.5001
+Epoch 487/1000
+14/14 [==============================] - 0s 2ms/step - loss: 24.2222
+Epoch 488/1000
+14/14 [==============================] - 0s 2ms/step - loss: 24.5980
+Epoch 489/1000
+14/14 [==============================] - 0s 2ms/step - loss: 25.1783
+Epoch 490/1000
+14/14 [==============================] - 0s 3ms/step - loss: 24.3594
+Epoch 491/1000
+14/14 [==============================] - 0s 2ms/step - loss: 23.6980
+Epoch 492/1000
+14/14 [==============================] - 0s 2ms/step - loss: 23.5455
+Epoch 493/1000
+14/14 [==============================] - 0s 2ms/step - loss: 24.3529
+Epoch 494/1000
+14/14 [==============================] - 0s 2ms/step - loss: 23.9274
+Epoch 495/1000
+14/14 [==============================] - 0s 2ms/step - loss: 23.5443
+Epoch 496/1000
+14/14 [==============================] - 0s 2ms/step - loss: 23.6547
+Epoch 497/1000
+14/14 [==============================] - 0s 2ms/step - loss: 23.6745
+Epoch 498/1000
+14/14 [==============================] - 0s 2ms/step - loss: 23.6917
+Epoch 499/1000
+14/14 [==============================] - 0s 2ms/step - loss: 24.7634
+Epoch 500/1000
+14/14 [==============================] - 0s 2ms/step - loss: 23.4808
+Epoch 501/1000
+14/14 [==============================] - 0s 3ms/step - loss: 23.3705
+Epoch 502/1000
+14/14 [==============================] - 0s 3ms/step - loss: 23.3334
+Epoch 503/1000
+14/14 [==============================] - 0s 2ms/step - loss: 23.5533
+Epoch 504/1000
+14/14 [==============================] - 0s 2ms/step - loss: 23.2993
+Epoch 505/1000
+14/14 [==============================] - 0s 2ms/step - loss: 23.0230
+Epoch 506/1000
+14/14 [==============================] - 0s 2ms/step - loss: 23.3048
+Epoch 507/1000
+14/14 [==============================] - 0s 3ms/step - loss: 23.0461
+Epoch 508/1000
+14/14 [==============================] - 0s 2ms/step - loss: 22.9272
+Epoch 509/1000
+14/14 [==============================] - 0s 2ms/step - loss: 23.2381
+Epoch 510/1000
+14/14 [==============================] - 0s 2ms/step - loss: 23.7511
+Epoch 511/1000
+14/14 [==============================] - 0s 2ms/step - loss: 23.2583
+Epoch 512/1000
+14/14 [==============================] - 0s 2ms/step - loss: 23.5539
+Epoch 513/1000
+14/14 [==============================] - 0s 2ms/step - loss: 22.8542
+Epoch 514/1000
+14/14 [==============================] - 0s 2ms/step - loss: 22.9830
+Epoch 515/1000
+14/14 [==============================] - 0s 3ms/step - loss: 23.1397
+Epoch 516/1000
+14/14 [==============================] - 0s 3ms/step - loss: 23.6579
+Epoch 517/1000
+14/14 [==============================] - 0s 2ms/step - loss: 22.9365
+Epoch 518/1000
+14/14 [==============================] - 0s 2ms/step - loss: 22.4290
+Epoch 519/1000
+14/14 [==============================] - 0s 2ms/step - loss: 22.5319
+Epoch 520/1000
+14/14 [==============================] - 0s 2ms/step - loss: 22.4666
+Epoch 521/1000
+14/14 [==============================] - 0s 2ms/step - loss: 22.2943
+Epoch 522/1000
+14/14 [==============================] - 0s 2ms/step - loss: 22.8829
+Epoch 523/1000
+14/14 [==============================] - 0s 2ms/step - loss: 23.4480
+Epoch 524/1000
+14/14 [==============================] - 0s 2ms/step - loss: 23.3564
+Epoch 525/1000
+14/14 [==============================] - 0s 2ms/step - loss: 23.0475
+Epoch 526/1000
+14/14 [==============================] - 0s 3ms/step - loss: 22.7923
+Epoch 527/1000
+14/14 [==============================] - 0s 2ms/step - loss: 22.2106
+Epoch 528/1000
+14/14 [==============================] - 0s 3ms/step - loss: 22.7034
+Epoch 529/1000
+14/14 [==============================] - 0s 2ms/step - loss: 22.4082
+Epoch 530/1000
+14/14 [==============================] - 0s 2ms/step - loss: 21.9946
+Epoch 531/1000
+14/14 [==============================] - 0s 3ms/step - loss: 23.1146
+Epoch 532/1000
+14/14 [==============================] - 0s 2ms/step - loss: 22.3284
+Epoch 533/1000
+14/14 [==============================] - 0s 3ms/step - loss: 26.0264
+Epoch 534/1000
+14/14 [==============================] - 0s 2ms/step - loss: 22.4796
+Epoch 535/1000
+14/14 [==============================] - 0s 2ms/step - loss: 23.1769
+Epoch 536/1000
+14/14 [==============================] - 0s 2ms/step - loss: 22.0088
+Epoch 537/1000
+14/14 [==============================] - 0s 2ms/step - loss: 21.9816
+Epoch 538/1000
+14/14 [==============================] - 0s 2ms/step - loss: 21.6960
+Epoch 539/1000
+14/14 [==============================] - 0s 2ms/step - loss: 22.2060
+Epoch 540/1000
+14/14 [==============================] - 0s 2ms/step - loss: 21.9138
+Epoch 541/1000
+14/14 [==============================] - 0s 2ms/step - loss: 21.5218
+Epoch 542/1000
+14/14 [==============================] - 0s 2ms/step - loss: 22.3428
+Epoch 543/1000
+14/14 [==============================] - 0s 2ms/step - loss: 21.7416
+Epoch 544/1000
+14/14 [==============================] - 0s 2ms/step - loss: 21.6881
+Epoch 545/1000
+14/14 [==============================] - 0s 2ms/step - loss: 21.4961
+Epoch 546/1000
+14/14 [==============================] - 0s 3ms/step - loss: 21.8777
+Epoch 547/1000
+14/14 [==============================] - 0s 2ms/step - loss: 22.3238
+Epoch 548/1000
+14/14 [==============================] - 0s 2ms/step - loss: 21.2791
+Epoch 549/1000
+14/14 [==============================] - 0s 3ms/step - loss: 21.5998
+Epoch 550/1000
+14/14 [==============================] - 0s 3ms/step - loss: 21.9178
+Epoch 551/1000
+14/14 [==============================] - 0s 2ms/step - loss: 21.5898
+Epoch 552/1000
+14/14 [==============================] - 0s 2ms/step - loss: 22.3594
+Epoch 553/1000
+14/14 [==============================] - 0s 3ms/step - loss: 21.3469
+Epoch 554/1000
+14/14 [==============================] - 0s 2ms/step - loss: 21.4356
+Epoch 555/1000
+14/14 [==============================] - 0s 2ms/step - loss: 23.0534
+Epoch 556/1000
+14/14 [==============================] - 0s 2ms/step - loss: 21.4953
+Epoch 557/1000
+14/14 [==============================] - 0s 2ms/step - loss: 21.3126
+Epoch 558/1000
+14/14 [==============================] - 0s 2ms/step - loss: 21.3064
+Epoch 559/1000
+14/14 [==============================] - 0s 2ms/step - loss: 21.3479
+Epoch 560/1000
+14/14 [==============================] - 0s 2ms/step - loss: 22.0895
+Epoch 561/1000
+14/14 [==============================] - 0s 3ms/step - loss: 22.7378
+Epoch 562/1000
+14/14 [==============================] - 0s 2ms/step - loss: 22.0358
+Epoch 563/1000
+14/14 [==============================] - 0s 2ms/step - loss: 21.5672
+Epoch 564/1000
+14/14 [==============================] - 0s 3ms/step - loss: 21.4324
+Epoch 565/1000
+14/14 [==============================] - 0s 2ms/step - loss: 21.3002
+Epoch 566/1000
+14/14 [==============================] - 0s 2ms/step - loss: 21.2000
+Epoch 567/1000
+14/14 [==============================] - 0s 2ms/step - loss: 21.4236
+Epoch 568/1000
+14/14 [==============================] - 0s 2ms/step - loss: 21.0859
+Epoch 569/1000
+14/14 [==============================] - 0s 2ms/step - loss: 21.2867
+Epoch 570/1000
+14/14 [==============================] - 0s 2ms/step - loss: 20.9659
+Epoch 571/1000
+14/14 [==============================] - 0s 2ms/step - loss: 21.1215
+Epoch 572/1000
+14/14 [==============================] - 0s 2ms/step - loss: 21.2949
+Epoch 573/1000
+14/14 [==============================] - 0s 3ms/step - loss: 21.2696
+Epoch 574/1000
+14/14 [==============================] - 0s 2ms/step - loss: 21.0499
+Epoch 575/1000
+14/14 [==============================] - 0s 2ms/step - loss: 21.3981
+Epoch 576/1000
+14/14 [==============================] - 0s 2ms/step - loss: 20.9041
+Epoch 577/1000
+14/14 [==============================] - 0s 2ms/step - loss: 21.4153
+Epoch 578/1000
+14/14 [==============================] - 0s 2ms/step - loss: 20.7785
+Epoch 579/1000
+14/14 [==============================] - 0s 2ms/step - loss: 20.7009
+Epoch 580/1000
+14/14 [==============================] - 0s 3ms/step - loss: 24.4206
+Epoch 581/1000
+14/14 [==============================] - 0s 2ms/step - loss: 22.6072
+Epoch 582/1000
+14/14 [==============================] - 0s 2ms/step - loss: 21.4014
+Epoch 583/1000
+14/14 [==============================] - 0s 2ms/step - loss: 20.9140
+Epoch 584/1000
+14/14 [==============================] - 0s 3ms/step - loss: 20.7813
+Epoch 585/1000
+14/14 [==============================] - 0s 2ms/step - loss: 20.9766
+Epoch 586/1000
+14/14 [==============================] - 0s 2ms/step - loss: 21.5519
+Epoch 587/1000
+14/14 [==============================] - 0s 3ms/step - loss: 21.4313
+Epoch 588/1000
+14/14 [==============================] - 0s 2ms/step - loss: 21.0954
+Epoch 589/1000
+14/14 [==============================] - 0s 2ms/step - loss: 21.3902
+Epoch 590/1000
+14/14 [==============================] - 0s 2ms/step - loss: 20.5847
+Epoch 591/1000
+14/14 [==============================] - 0s 3ms/step - loss: 21.0772
+Epoch 592/1000
+14/14 [==============================] - 0s 2ms/step - loss: 20.9375
+Epoch 593/1000
+14/14 [==============================] - 0s 2ms/step - loss: 20.7463
+Epoch 594/1000
+14/14 [==============================] - 0s 2ms/step - loss: 22.5301
+Epoch 595/1000
+14/14 [==============================] - 0s 2ms/step - loss: 22.0186
+Epoch 596/1000
+14/14 [==============================] - 0s 2ms/step - loss: 21.6434
+Epoch 597/1000
+14/14 [==============================] - 0s 2ms/step - loss: 20.5416
+Epoch 598/1000
+14/14 [==============================] - 0s 3ms/step - loss: 21.3559
+Epoch 599/1000
+14/14 [==============================] - 0s 3ms/step - loss: 20.8640
+Epoch 600/1000
+14/14 [==============================] - 0s 3ms/step - loss: 21.6469
+Epoch 601/1000
+14/14 [==============================] - 0s 2ms/step - loss: 20.5864
+Epoch 602/1000
+14/14 [==============================] - 0s 3ms/step - loss: 20.4690
+Epoch 603/1000
+14/14 [==============================] - 0s 2ms/step - loss: 20.5631
+Epoch 604/1000
+14/14 [==============================] - 0s 2ms/step - loss: 21.2272
+Epoch 605/1000
+14/14 [==============================] - 0s 3ms/step - loss: 21.6310
+Epoch 606/1000
+14/14 [==============================] - 0s 3ms/step - loss: 20.9984
+Epoch 607/1000
+14/14 [==============================] - 0s 2ms/step - loss: 20.7744
+Epoch 608/1000
+14/14 [==============================] - 0s 2ms/step - loss: 20.5077
+Epoch 609/1000
+14/14 [==============================] - 0s 2ms/step - loss: 20.7976
+Epoch 610/1000
+14/14 [==============================] - 0s 2ms/step - loss: 20.7058
+Epoch 611/1000
+14/14 [==============================] - 0s 2ms/step - loss: 20.9294
+Epoch 612/1000
+14/14 [==============================] - 0s 3ms/step - loss: 23.5172
+Epoch 613/1000
+14/14 [==============================] - 0s 2ms/step - loss: 21.8761
+Epoch 614/1000
+14/14 [==============================] - 0s 2ms/step - loss: 20.2143
+Epoch 615/1000
+14/14 [==============================] - 0s 3ms/step - loss: 21.2647
+Epoch 616/1000
+14/14 [==============================] - 0s 3ms/step - loss: 20.0207
+Epoch 617/1000
+14/14 [==============================] - 0s 3ms/step - loss: 20.5059
+Epoch 618/1000
+14/14 [==============================] - 0s 2ms/step - loss: 20.4874
+Epoch 619/1000
+14/14 [==============================] - 0s 2ms/step - loss: 20.6034
+Epoch 620/1000
+14/14 [==============================] - 0s 2ms/step - loss: 20.4895
+Epoch 621/1000
+14/14 [==============================] - 0s 2ms/step - loss: 21.1810
+Epoch 622/1000
+14/14 [==============================] - 0s 2ms/step - loss: 20.3998
+Epoch 623/1000
+14/14 [==============================] - 0s 2ms/step - loss: 20.5992
+Epoch 624/1000
+14/14 [==============================] - 0s 3ms/step - loss: 19.7259
+Epoch 625/1000
+14/14 [==============================] - 0s 2ms/step - loss: 20.8547
+Epoch 626/1000
+14/14 [==============================] - 0s 2ms/step - loss: 20.3069
+Epoch 627/1000
+14/14 [==============================] - 0s 2ms/step - loss: 20.1164
+Epoch 628/1000
+14/14 [==============================] - 0s 2ms/step - loss: 20.4896
+Epoch 629/1000
+14/14 [==============================] - 0s 3ms/step - loss: 20.1439
+Epoch 630/1000
+14/14 [==============================] - 0s 3ms/step - loss: 20.2991
+Epoch 631/1000
+14/14 [==============================] - 0s 2ms/step - loss: 21.0873
+Epoch 632/1000
+14/14 [==============================] - 0s 2ms/step - loss: 21.4611
+Epoch 633/1000
+14/14 [==============================] - 0s 2ms/step - loss: 20.4736
+Epoch 634/1000
+14/14 [==============================] - 0s 3ms/step - loss: 20.2415
+Epoch 635/1000
+14/14 [==============================] - 0s 3ms/step - loss: 19.8273
+Epoch 636/1000
+14/14 [==============================] - 0s 3ms/step - loss: 19.6300
+Epoch 637/1000
+14/14 [==============================] - 0s 2ms/step - loss: 19.7705
+Epoch 638/1000
+14/14 [==============================] - 0s 4ms/step - loss: 19.7504
+Epoch 639/1000
+14/14 [==============================] - 0s 2ms/step - loss: 19.6301
+Epoch 640/1000
+14/14 [==============================] - 0s 3ms/step - loss: 19.8239
+Epoch 641/1000
+14/14 [==============================] - 0s 3ms/step - loss: 19.9982
+Epoch 642/1000
+14/14 [==============================] - 0s 3ms/step - loss: 19.8137
+Epoch 643/1000
+14/14 [==============================] - 0s 3ms/step - loss: 20.0152
+Epoch 644/1000
+14/14 [==============================] - 0s 3ms/step - loss: 20.3920
+Epoch 645/1000
+14/14 [==============================] - 0s 3ms/step - loss: 20.4497
+Epoch 646/1000
+14/14 [==============================] - 0s 3ms/step - loss: 20.2060
+Epoch 647/1000
+14/14 [==============================] - 0s 3ms/step - loss: 20.6184
+Epoch 648/1000
+14/14 [==============================] - 0s 3ms/step - loss: 19.8211
+Epoch 649/1000
+14/14 [==============================] - 0s 3ms/step - loss: 19.7393
+Epoch 650/1000
+14/14 [==============================] - 0s 3ms/step - loss: 20.1988
+Epoch 651/1000
+14/14 [==============================] - 0s 3ms/step - loss: 20.3053
+Epoch 652/1000
+14/14 [==============================] - 0s 3ms/step - loss: 19.7870
+Epoch 653/1000
+14/14 [==============================] - 0s 3ms/step - loss: 20.3824
+Epoch 654/1000
+14/14 [==============================] - 0s 3ms/step - loss: 19.9474
+Epoch 655/1000
+14/14 [==============================] - 0s 3ms/step - loss: 20.6273
+Epoch 656/1000
+14/14 [==============================] - 0s 3ms/step - loss: 19.7065
+Epoch 657/1000
+14/14 [==============================] - 0s 3ms/step - loss: 19.8628
+Epoch 658/1000
+14/14 [==============================] - 0s 3ms/step - loss: 19.7756
+Epoch 659/1000
+14/14 [==============================] - 0s 3ms/step - loss: 20.2436
+Epoch 660/1000
+14/14 [==============================] - 0s 3ms/step - loss: 19.7947
+Epoch 661/1000
+14/14 [==============================] - 0s 3ms/step - loss: 20.6069
+Epoch 662/1000
+14/14 [==============================] - 0s 3ms/step - loss: 21.6842
+Epoch 663/1000
+14/14 [==============================] - 0s 2ms/step - loss: 19.8755
+Epoch 664/1000
+14/14 [==============================] - 0s 2ms/step - loss: 19.8878
+Epoch 665/1000
+14/14 [==============================] - 0s 3ms/step - loss: 19.5589
+Epoch 666/1000
+14/14 [==============================] - 0s 2ms/step - loss: 19.2916
+Epoch 667/1000
+14/14 [==============================] - 0s 3ms/step - loss: 19.2281
+Epoch 668/1000
+14/14 [==============================] - 0s 3ms/step - loss: 19.3228
+Epoch 669/1000
+14/14 [==============================] - 0s 3ms/step - loss: 19.8961
+Epoch 670/1000
+14/14 [==============================] - 0s 3ms/step - loss: 19.6843
+Epoch 671/1000
+14/14 [==============================] - 0s 2ms/step - loss: 19.5098
+Epoch 672/1000
+14/14 [==============================] - 0s 2ms/step - loss: 19.6201
+Epoch 673/1000
+14/14 [==============================] - 0s 3ms/step - loss: 20.1477
+Epoch 674/1000
+14/14 [==============================] - 0s 3ms/step - loss: 18.9951
+Epoch 675/1000
+14/14 [==============================] - 0s 2ms/step - loss: 18.9240
+Epoch 676/1000
+14/14 [==============================] - 0s 2ms/step - loss: 19.1410
+Epoch 677/1000
+14/14 [==============================] - 0s 2ms/step - loss: 20.0214
+Epoch 678/1000
+14/14 [==============================] - 0s 2ms/step - loss: 19.4057
+Epoch 679/1000
+14/14 [==============================] - 0s 2ms/step - loss: 19.3528
+Epoch 680/1000
+14/14 [==============================] - 0s 3ms/step - loss: 19.5005
+Epoch 681/1000
+14/14 [==============================] - 0s 3ms/step - loss: 19.6810
+Epoch 682/1000
+14/14 [==============================] - 0s 3ms/step - loss: 20.0845
+Epoch 683/1000
+14/14 [==============================] - 0s 3ms/step - loss: 19.2703
+Epoch 684/1000
+14/14 [==============================] - 0s 2ms/step - loss: 19.2661
+Epoch 685/1000
+14/14 [==============================] - 0s 2ms/step - loss: 19.3086
+Epoch 686/1000
+14/14 [==============================] - 0s 2ms/step - loss: 18.9927
+Epoch 687/1000
+14/14 [==============================] - 0s 2ms/step - loss: 21.3183
+Epoch 688/1000
+14/14 [==============================] - 0s 2ms/step - loss: 19.3656
+Epoch 689/1000
+14/14 [==============================] - 0s 2ms/step - loss: 19.0394
+Epoch 690/1000
+14/14 [==============================] - 0s 2ms/step - loss: 19.0222
+Epoch 691/1000
+14/14 [==============================] - 0s 3ms/step - loss: 19.3181
+Epoch 692/1000
+14/14 [==============================] - 0s 2ms/step - loss: 19.0625
+Epoch 693/1000
+14/14 [==============================] - 0s 2ms/step - loss: 19.1889
+Epoch 694/1000
+14/14 [==============================] - 0s 2ms/step - loss: 18.5954
+Epoch 695/1000
+14/14 [==============================] - 0s 2ms/step - loss: 19.6789
+Epoch 696/1000
+14/14 [==============================] - 0s 2ms/step - loss: 19.7961
+Epoch 697/1000
+14/14 [==============================] - 0s 3ms/step - loss: 18.9108
+Epoch 698/1000
+14/14 [==============================] - 0s 2ms/step - loss: 18.8784
+Epoch 699/1000
+14/14 [==============================] - 0s 3ms/step - loss: 18.1680
+Epoch 700/1000
+14/14 [==============================] - 0s 3ms/step - loss: 18.8855
+Epoch 701/1000
+14/14 [==============================] - 0s 2ms/step - loss: 19.2779
+Epoch 702/1000
+14/14 [==============================] - 0s 2ms/step - loss: 18.4669
+Epoch 703/1000
+14/14 [==============================] - 0s 2ms/step - loss: 18.3473
+Epoch 704/1000
+14/14 [==============================] - 0s 3ms/step - loss: 19.2427
+Epoch 705/1000
+14/14 [==============================] - 0s 2ms/step - loss: 19.4221
+Epoch 706/1000
+14/14 [==============================] - 0s 2ms/step - loss: 19.9481
+Epoch 707/1000
+14/14 [==============================] - 0s 3ms/step - loss: 18.9094
+Epoch 708/1000
+14/14 [==============================] - 0s 3ms/step - loss: 18.3119
+Epoch 709/1000
+14/14 [==============================] - 0s 3ms/step - loss: 18.2758
+Epoch 710/1000
+14/14 [==============================] - 0s 3ms/step - loss: 18.6915
+Epoch 711/1000
+14/14 [==============================] - 0s 3ms/step - loss: 19.4316
+Epoch 712/1000
+14/14 [==============================] - 0s 3ms/step - loss: 18.6445
+Epoch 713/1000
+14/14 [==============================] - 0s 3ms/step - loss: 18.3996
+Epoch 714/1000
+14/14 [==============================] - 0s 3ms/step - loss: 18.5893
+Epoch 715/1000
+14/14 [==============================] - 0s 2ms/step - loss: 18.6567
+Epoch 716/1000
+14/14 [==============================] - 0s 2ms/step - loss: 18.3085
+Epoch 717/1000
+14/14 [==============================] - 0s 2ms/step - loss: 18.1789
+Epoch 718/1000
+14/14 [==============================] - 0s 2ms/step - loss: 21.4416
+Epoch 719/1000
+14/14 [==============================] - 0s 2ms/step - loss: 19.2757
+Epoch 720/1000
+14/14 [==============================] - 0s 3ms/step - loss: 18.1129
+Epoch 721/1000
+14/14 [==============================] - 0s 2ms/step - loss: 18.0164
+Epoch 722/1000
+14/14 [==============================] - 0s 2ms/step - loss: 18.6946
+Epoch 723/1000
+14/14 [==============================] - 0s 2ms/step - loss: 18.4591
+Epoch 724/1000
+14/14 [==============================] - 0s 3ms/step - loss: 18.0442
+Epoch 725/1000
+14/14 [==============================] - 0s 3ms/step - loss: 18.7135
+Epoch 726/1000
+14/14 [==============================] - 0s 3ms/step - loss: 18.3057
+Epoch 727/1000
+14/14 [==============================] - 0s 2ms/step - loss: 18.1647
+Epoch 728/1000
+14/14 [==============================] - 0s 2ms/step - loss: 18.5695
+Epoch 729/1000
+14/14 [==============================] - 0s 3ms/step - loss: 17.9964
+Epoch 730/1000
+14/14 [==============================] - 0s 3ms/step - loss: 17.7856
+Epoch 731/1000
+14/14 [==============================] - 0s 3ms/step - loss: 19.3320
+Epoch 732/1000
+14/14 [==============================] - 0s 3ms/step - loss: 17.9222
+Epoch 733/1000
+14/14 [==============================] - 0s 3ms/step - loss: 17.3971
+Epoch 734/1000
+14/14 [==============================] - 0s 3ms/step - loss: 17.6336
+Epoch 735/1000
+14/14 [==============================] - 0s 2ms/step - loss: 17.7629
+Epoch 736/1000
+14/14 [==============================] - 0s 3ms/step - loss: 17.8589
+Epoch 737/1000
+14/14 [==============================] - 0s 3ms/step - loss: 17.6929
+Epoch 738/1000
+14/14 [==============================] - 0s 3ms/step - loss: 17.1934
+Epoch 739/1000
+14/14 [==============================] - 0s 3ms/step - loss: 18.3609
+Epoch 740/1000
+14/14 [==============================] - 0s 2ms/step - loss: 17.5040
+Epoch 741/1000
+14/14 [==============================] - 0s 2ms/step - loss: 17.8648
+Epoch 742/1000
+14/14 [==============================] - 0s 2ms/step - loss: 19.2663
+Epoch 743/1000
+14/14 [==============================] - 0s 2ms/step - loss: 16.9930
+Epoch 744/1000
+14/14 [==============================] - 0s 2ms/step - loss: 17.2801
+Epoch 745/1000
+14/14 [==============================] - 0s 2ms/step - loss: 17.1944
+Epoch 746/1000
+14/14 [==============================] - 0s 2ms/step - loss: 17.9544
+Epoch 747/1000
+14/14 [==============================] - 0s 2ms/step - loss: 19.5951
+Epoch 748/1000
+14/14 [==============================] - 0s 2ms/step - loss: 17.1835
+Epoch 749/1000
+14/14 [==============================] - 0s 2ms/step - loss: 17.2196
+Epoch 750/1000
+14/14 [==============================] - 0s 2ms/step - loss: 17.2894
+Epoch 751/1000
+14/14 [==============================] - 0s 3ms/step - loss: 17.0619
+Epoch 752/1000
+14/14 [==============================] - 0s 2ms/step - loss: 16.7996
+Epoch 753/1000
+14/14 [==============================] - 0s 2ms/step - loss: 20.9008
+Epoch 754/1000
+14/14 [==============================] - 0s 2ms/step - loss: 17.9382
+Epoch 755/1000
+14/14 [==============================] - 0s 2ms/step - loss: 17.9565
+Epoch 756/1000
+14/14 [==============================] - 0s 2ms/step - loss: 19.0873
+Epoch 757/1000
+14/14 [==============================] - 0s 2ms/step - loss: 17.3055
+Epoch 758/1000
+14/14 [==============================] - 0s 2ms/step - loss: 17.4150
+Epoch 759/1000
+14/14 [==============================] - 0s 2ms/step - loss: 17.5938
+Epoch 760/1000
+14/14 [==============================] - 0s 3ms/step - loss: 16.7487
+Epoch 761/1000
+14/14 [==============================] - 0s 2ms/step - loss: 16.8625
+Epoch 762/1000
+14/14 [==============================] - 0s 2ms/step - loss: 16.5504
+Epoch 763/1000
+14/14 [==============================] - 0s 2ms/step - loss: 16.3460
+Epoch 764/1000
+14/14 [==============================] - 0s 2ms/step - loss: 16.4168
+Epoch 765/1000
+14/14 [==============================] - 0s 2ms/step - loss: 16.6969
+Epoch 766/1000
+14/14 [==============================] - 0s 2ms/step - loss: 17.7530
+Epoch 767/1000
+14/14 [==============================] - 0s 2ms/step - loss: 17.9127
+Epoch 768/1000
+14/14 [==============================] - 0s 3ms/step - loss: 17.4467
+Epoch 769/1000
+14/14 [==============================] - 0s 3ms/step - loss: 16.2568
+Epoch 770/1000
+14/14 [==============================] - 0s 2ms/step - loss: 16.7353
+Epoch 771/1000
+14/14 [==============================] - 0s 2ms/step - loss: 16.0389
+Epoch 772/1000
+14/14 [==============================] - 0s 2ms/step - loss: 16.2075
+Epoch 773/1000
+14/14 [==============================] - 0s 2ms/step - loss: 16.0646
+Epoch 774/1000
+14/14 [==============================] - 0s 2ms/step - loss: 16.1104
+Epoch 775/1000
+14/14 [==============================] - 0s 2ms/step - loss: 15.8896
+Epoch 776/1000
+14/14 [==============================] - 0s 3ms/step - loss: 16.4064
+Epoch 777/1000
+14/14 [==============================] - 0s 2ms/step - loss: 16.3296
+Epoch 778/1000
+14/14 [==============================] - 0s 3ms/step - loss: 15.5972
+Epoch 779/1000
+14/14 [==============================] - 0s 3ms/step - loss: 16.6628
+Epoch 780/1000
+14/14 [==============================] - 0s 2ms/step - loss: 16.3148
+Epoch 781/1000
+14/14 [==============================] - 0s 2ms/step - loss: 15.6928
+Epoch 782/1000
+14/14 [==============================] - 0s 2ms/step - loss: 16.2375
+Epoch 783/1000
+14/14 [==============================] - 0s 2ms/step - loss: 16.2208
+Epoch 784/1000
+14/14 [==============================] - 0s 2ms/step - loss: 15.8941
+Epoch 785/1000
+14/14 [==============================] - 0s 3ms/step - loss: 15.5676
+Epoch 786/1000
+14/14 [==============================] - 0s 2ms/step - loss: 15.6216
+Epoch 787/1000
+14/14 [==============================] - 0s 2ms/step - loss: 15.3243
+Epoch 788/1000
+14/14 [==============================] - 0s 2ms/step - loss: 15.0453
+Epoch 789/1000
+14/14 [==============================] - 0s 2ms/step - loss: 15.4722
+Epoch 790/1000
+14/14 [==============================] - 0s 2ms/step - loss: 14.8621
+Epoch 791/1000
+14/14 [==============================] - 0s 3ms/step - loss: 16.1384
+Epoch 792/1000
+14/14 [==============================] - 0s 2ms/step - loss: 16.3743
+Epoch 793/1000
+14/14 [==============================] - 0s 2ms/step - loss: 15.5905
+Epoch 794/1000
+14/14 [==============================] - 0s 2ms/step - loss: 15.1257
+Epoch 795/1000
+14/14 [==============================] - 0s 2ms/step - loss: 16.1321
+Epoch 796/1000
+14/14 [==============================] - 0s 3ms/step - loss: 14.8466
+Epoch 797/1000
+14/14 [==============================] - 0s 2ms/step - loss: 15.8989
+Epoch 798/1000
+14/14 [==============================] - 0s 3ms/step - loss: 15.7246
+Epoch 799/1000
+14/14 [==============================] - 0s 2ms/step - loss: 16.1064
+Epoch 800/1000
+14/14 [==============================] - 0s 2ms/step - loss: 16.6598
+Epoch 801/1000
+14/14 [==============================] - 0s 2ms/step - loss: 14.8194
+Epoch 802/1000
+14/14 [==============================] - 0s 2ms/step - loss: 14.5740
+Epoch 803/1000
+14/14 [==============================] - 0s 2ms/step - loss: 14.4579
+Epoch 804/1000
+14/14 [==============================] - 0s 2ms/step - loss: 14.4963
+Epoch 805/1000
+14/14 [==============================] - 0s 2ms/step - loss: 14.2338
+Epoch 806/1000
+14/14 [==============================] - 0s 2ms/step - loss: 14.1385
+Epoch 807/1000
+14/14 [==============================] - 0s 2ms/step - loss: 14.5795
+Epoch 808/1000
+14/14 [==============================] - 0s 2ms/step - loss: 14.5450
+Epoch 809/1000
+14/14 [==============================] - 0s 3ms/step - loss: 14.0176
+Epoch 810/1000
+14/14 [==============================] - 0s 2ms/step - loss: 14.0480
+Epoch 811/1000
+14/14 [==============================] - 0s 2ms/step - loss: 13.9092
+Epoch 812/1000
+14/14 [==============================] - 0s 3ms/step - loss: 13.8507
+Epoch 813/1000
+14/14 [==============================] - 0s 2ms/step - loss: 14.4638
+Epoch 814/1000
+14/14 [==============================] - 0s 2ms/step - loss: 13.6640
+Epoch 815/1000
+14/14 [==============================] - 0s 3ms/step - loss: 13.8474
+Epoch 816/1000
+14/14 [==============================] - 0s 3ms/step - loss: 13.3149
+Epoch 817/1000
+14/14 [==============================] - 0s 2ms/step - loss: 14.2519
+Epoch 818/1000
+14/14 [==============================] - 0s 2ms/step - loss: 13.1912
+Epoch 819/1000
+14/14 [==============================] - 0s 3ms/step - loss: 13.1041
+Epoch 820/1000
+14/14 [==============================] - 0s 3ms/step - loss: 14.0328
+Epoch 821/1000
+14/14 [==============================] - 0s 2ms/step - loss: 13.2045
+Epoch 822/1000
+14/14 [==============================] - 0s 3ms/step - loss: 13.0792
+Epoch 823/1000
+14/14 [==============================] - 0s 2ms/step - loss: 13.1530
+Epoch 824/1000
+14/14 [==============================] - 0s 2ms/step - loss: 13.7676
+Epoch 825/1000
+14/14 [==============================] - 0s 2ms/step - loss: 13.5274
+Epoch 826/1000
+14/14 [==============================] - 0s 3ms/step - loss: 12.9912
+Epoch 827/1000
+14/14 [==============================] - 0s 3ms/step - loss: 12.8030
+Epoch 828/1000
+14/14 [==============================] - 0s 2ms/step - loss: 12.2289
+Epoch 829/1000
+14/14 [==============================] - 0s 2ms/step - loss: 14.9714
+Epoch 830/1000
+14/14 [==============================] - 0s 2ms/step - loss: 12.8328
+Epoch 831/1000
+14/14 [==============================] - 0s 2ms/step - loss: 12.0200
+Epoch 832/1000
+14/14 [==============================] - 0s 2ms/step - loss: 11.8911
+Epoch 833/1000
+14/14 [==============================] - 0s 2ms/step - loss: 11.7902
+Epoch 834/1000
+14/14 [==============================] - 0s 3ms/step - loss: 11.9444
+Epoch 835/1000
+14/14 [==============================] - 0s 2ms/step - loss: 12.1527
+Epoch 836/1000
+14/14 [==============================] - 0s 2ms/step - loss: 11.7597
+Epoch 837/1000
+14/14 [==============================] - 0s 2ms/step - loss: 11.6019
+Epoch 838/1000
+14/14 [==============================] - 0s 3ms/step - loss: 11.5376
+Epoch 839/1000
+14/14 [==============================] - 0s 2ms/step - loss: 11.6805
+Epoch 840/1000
+14/14 [==============================] - 0s 2ms/step - loss: 11.6254
+Epoch 841/1000
+14/14 [==============================] - 0s 3ms/step - loss: 11.2772
+Epoch 842/1000
+14/14 [==============================] - 0s 2ms/step - loss: 11.3443
+Epoch 843/1000
+14/14 [==============================] - 0s 2ms/step - loss: 11.2324
+Epoch 844/1000
+14/14 [==============================] - 0s 3ms/step - loss: 11.4000
+Epoch 845/1000
+14/14 [==============================] - 0s 3ms/step - loss: 10.9601
+Epoch 846/1000
+14/14 [==============================] - 0s 2ms/step - loss: 11.6431
+Epoch 847/1000
+14/14 [==============================] - 0s 3ms/step - loss: 10.5783
+Epoch 848/1000
+14/14 [==============================] - 0s 2ms/step - loss: 10.3704
+Epoch 849/1000
+14/14 [==============================] - 0s 2ms/step - loss: 10.3625
+Epoch 850/1000
+14/14 [==============================] - 0s 2ms/step - loss: 10.2556
+Epoch 851/1000
+14/14 [==============================] - 0s 3ms/step - loss: 10.0243
+Epoch 852/1000
+14/14 [==============================] - 0s 2ms/step - loss: 10.1095
+Epoch 853/1000
+14/14 [==============================] - 0s 3ms/step - loss: 9.9180
+Epoch 854/1000
+14/14 [==============================] - 0s 2ms/step - loss: 9.8985
+Epoch 855/1000
+14/14 [==============================] - 0s 3ms/step - loss: 9.7713
+Epoch 856/1000
+14/14 [==============================] - 0s 2ms/step - loss: 9.5847
+Epoch 857/1000
+14/14 [==============================] - 0s 2ms/step - loss: 9.8749
+Epoch 858/1000
+14/14 [==============================] - 0s 2ms/step - loss: 9.5279
+Epoch 859/1000
+14/14 [==============================] - 0s 2ms/step - loss: 9.3766
+Epoch 860/1000
+14/14 [==============================] - 0s 2ms/step - loss: 9.1484
+Epoch 861/1000
+14/14 [==============================] - 0s 2ms/step - loss: 8.9532
+Epoch 862/1000
+14/14 [==============================] - 0s 2ms/step - loss: 8.8156
+Epoch 863/1000
+14/14 [==============================] - 0s 2ms/step - loss: 8.8294
+Epoch 864/1000
+14/14 [==============================] - 0s 2ms/step - loss: 10.6907
+Epoch 865/1000
+14/14 [==============================] - 0s 2ms/step - loss: 9.4562
+Epoch 866/1000
+14/14 [==============================] - 0s 2ms/step - loss: 9.5407
+Epoch 867/1000
+14/14 [==============================] - 0s 2ms/step - loss: 8.9353
+Epoch 868/1000
+14/14 [==============================] - 0s 2ms/step - loss: 8.2631
+Epoch 869/1000
+14/14 [==============================] - 0s 2ms/step - loss: 7.8835
+Epoch 870/1000
+14/14 [==============================] - 0s 2ms/step - loss: 8.4327
+Epoch 871/1000
+14/14 [==============================] - 0s 2ms/step - loss: 8.0093
+Epoch 872/1000
+14/14 [==============================] - 0s 2ms/step - loss: 8.1849
+Epoch 873/1000
+14/14 [==============================] - 0s 2ms/step - loss: 7.8633
+Epoch 874/1000
+14/14 [==============================] - 0s 2ms/step - loss: 7.7615
+Epoch 875/1000
+14/14 [==============================] - 0s 2ms/step - loss: 7.5391
+Epoch 876/1000
+14/14 [==============================] - 0s 2ms/step - loss: 7.5984
+Epoch 877/1000
+14/14 [==============================] - 0s 3ms/step - loss: 7.6889
+Epoch 878/1000
+14/14 [==============================] - 0s 3ms/step - loss: 7.9366
+Epoch 879/1000
+14/14 [==============================] - 0s 2ms/step - loss: 7.4385
+Epoch 880/1000
+14/14 [==============================] - 0s 2ms/step - loss: 7.2114
+Epoch 881/1000
+14/14 [==============================] - 0s 2ms/step - loss: 7.1190
+Epoch 882/1000
+14/14 [==============================] - 0s 2ms/step - loss: 7.0968
+Epoch 883/1000
+14/14 [==============================] - 0s 2ms/step - loss: 7.1258
+Epoch 884/1000
+14/14 [==============================] - 0s 2ms/step - loss: 7.2016
+Epoch 885/1000
+14/14 [==============================] - 0s 2ms/step - loss: 7.1843
+Epoch 886/1000
+14/14 [==============================] - 0s 2ms/step - loss: 6.5758
+Epoch 887/1000
+14/14 [==============================] - 0s 2ms/step - loss: 6.6148
+Epoch 888/1000
+14/14 [==============================] - 0s 2ms/step - loss: 6.2470
+Epoch 889/1000
+14/14 [==============================] - 0s 2ms/step - loss: 6.1509
+Epoch 890/1000
+14/14 [==============================] - 0s 3ms/step - loss: 6.0650
+Epoch 891/1000
+14/14 [==============================] - 0s 3ms/step - loss: 6.2419
+Epoch 892/1000
+14/14 [==============================] - 0s 3ms/step - loss: 6.1064
+Epoch 893/1000
+14/14 [==============================] - 0s 3ms/step - loss: 5.8129
+Epoch 894/1000
+14/14 [==============================] - 0s 2ms/step - loss: 5.6189
+Epoch 895/1000
+14/14 [==============================] - 0s 2ms/step - loss: 5.6243
+Epoch 896/1000
+14/14 [==============================] - 0s 2ms/step - loss: 5.9088
+Epoch 897/1000
+14/14 [==============================] - 0s 3ms/step - loss: 5.5861
+Epoch 898/1000
+14/14 [==============================] - 0s 2ms/step - loss: 5.7316
+Epoch 899/1000
+14/14 [==============================] - 0s 3ms/step - loss: 5.5206
+Epoch 900/1000
+14/14 [==============================] - 0s 2ms/step - loss: 5.2275
+Epoch 901/1000
+14/14 [==============================] - 0s 2ms/step - loss: 5.6550
+Epoch 902/1000
+14/14 [==============================] - 0s 3ms/step - loss: 5.4855
+Epoch 903/1000
+14/14 [==============================] - 0s 2ms/step - loss: 5.2806
+Epoch 904/1000
+14/14 [==============================] - 0s 2ms/step - loss: 4.8406
+Epoch 905/1000
+14/14 [==============================] - 0s 2ms/step - loss: 4.9934
+Epoch 906/1000
+14/14 [==============================] - 0s 2ms/step - loss: 4.8616
+Epoch 907/1000
+14/14 [==============================] - 0s 2ms/step - loss: 4.7677
+Epoch 908/1000
+14/14 [==============================] - 0s 2ms/step - loss: 4.5633
+Epoch 909/1000
+14/14 [==============================] - 0s 2ms/step - loss: 4.5775
+Epoch 910/1000
+14/14 [==============================] - 0s 2ms/step - loss: 4.7784
+Epoch 911/1000
+14/14 [==============================] - 0s 3ms/step - loss: 4.4132
+Epoch 912/1000
+14/14 [==============================] - 0s 2ms/step - loss: 4.3154
+Epoch 913/1000
+14/14 [==============================] - 0s 2ms/step - loss: 4.3035
+Epoch 914/1000
+14/14 [==============================] - 0s 2ms/step - loss: 4.2224
+Epoch 915/1000
+14/14 [==============================] - 0s 3ms/step - loss: 4.4659
+Epoch 916/1000
+14/14 [==============================] - 0s 3ms/step - loss: 4.3766
+Epoch 917/1000
+14/14 [==============================] - 0s 3ms/step - loss: 4.0607
+Epoch 918/1000
+14/14 [==============================] - 0s 2ms/step - loss: 4.0961
+Epoch 919/1000
+14/14 [==============================] - 0s 2ms/step - loss: 4.1151
+Epoch 920/1000
+14/14 [==============================] - 0s 2ms/step - loss: 4.0251
+Epoch 921/1000
+14/14 [==============================] - 0s 3ms/step - loss: 3.8716
+Epoch 922/1000
+14/14 [==============================] - 0s 3ms/step - loss: 3.8375
+Epoch 923/1000
+14/14 [==============================] - 0s 2ms/step - loss: 3.7173
+Epoch 924/1000
+14/14 [==============================] - 0s 2ms/step - loss: 3.6557
+Epoch 925/1000
+14/14 [==============================] - 0s 3ms/step - loss: 3.7628
+Epoch 926/1000
+14/14 [==============================] - 0s 3ms/step - loss: 3.6014
+Epoch 927/1000
+14/14 [==============================] - 0s 3ms/step - loss: 3.5099
+Epoch 928/1000
+14/14 [==============================] - 0s 2ms/step - loss: 3.4920
+Epoch 929/1000
+14/14 [==============================] - 0s 2ms/step - loss: 3.4485
+Epoch 930/1000
+14/14 [==============================] - 0s 2ms/step - loss: 3.4118
+Epoch 931/1000
+14/14 [==============================] - 0s 3ms/step - loss: 3.3462
+Epoch 932/1000
+14/14 [==============================] - 0s 2ms/step - loss: 3.2878
+Epoch 933/1000
+14/14 [==============================] - 0s 2ms/step - loss: 3.3919
+Epoch 934/1000
+14/14 [==============================] - 0s 2ms/step - loss: 3.7474
+Epoch 935/1000
+14/14 [==============================] - 0s 2ms/step - loss: 3.5055
+Epoch 936/1000
+14/14 [==============================] - 0s 2ms/step - loss: 3.3287
+Epoch 937/1000
+14/14 [==============================] - 0s 2ms/step - loss: 3.2120
+Epoch 938/1000
+14/14 [==============================] - 0s 3ms/step - loss: 3.1257
+Epoch 939/1000
+14/14 [==============================] - 0s 2ms/step - loss: 3.1312
+Epoch 940/1000
+14/14 [==============================] - 0s 2ms/step - loss: 3.1248
+Epoch 941/1000
+14/14 [==============================] - 0s 2ms/step - loss: 3.0913
+Epoch 942/1000
+14/14 [==============================] - 0s 2ms/step - loss: 3.2575
+Epoch 943/1000
+14/14 [==============================] - 0s 3ms/step - loss: 3.0627
+Epoch 944/1000
+14/14 [==============================] - 0s 2ms/step - loss: 2.9644
+Epoch 945/1000
+14/14 [==============================] - 0s 3ms/step - loss: 2.9706
+Epoch 946/1000
+14/14 [==============================] - 0s 3ms/step - loss: 3.0555
+Epoch 947/1000
+14/14 [==============================] - 0s 3ms/step - loss: 3.0465
+Epoch 948/1000
+14/14 [==============================] - 0s 2ms/step - loss: 2.7668
+Epoch 949/1000
+14/14 [==============================] - 0s 2ms/step - loss: 2.8358
+Epoch 950/1000
+14/14 [==============================] - 0s 2ms/step - loss: 2.9169
+Epoch 951/1000
+14/14 [==============================] - 0s 2ms/step - loss: 2.7632
+Epoch 952/1000
+14/14 [==============================] - 0s 3ms/step - loss: 2.7314
+Epoch 953/1000
+14/14 [==============================] - 0s 3ms/step - loss: 2.8395
+Epoch 954/1000
+14/14 [==============================] - 0s 3ms/step - loss: 2.8503
+Epoch 955/1000
+14/14 [==============================] - 0s 3ms/step - loss: 2.7583
+Epoch 956/1000
+14/14 [==============================] - 0s 3ms/step - loss: 2.9666
+Epoch 957/1000
+14/14 [==============================] - 0s 2ms/step - loss: 2.7019
+Epoch 958/1000
+14/14 [==============================] - 0s 2ms/step - loss: 2.5562
+Epoch 959/1000
+14/14 [==============================] - 0s 2ms/step - loss: 2.5624
+Epoch 960/1000
+14/14 [==============================] - 0s 3ms/step - loss: 2.6137
+Epoch 961/1000
+14/14 [==============================] - 0s 3ms/step - loss: 2.6858
+Epoch 962/1000
+14/14 [==============================] - 0s 2ms/step - loss: 2.6007
+Epoch 963/1000
+14/14 [==============================] - 0s 2ms/step - loss: 2.5152
+Epoch 964/1000
+14/14 [==============================] - 0s 2ms/step - loss: 2.6832
+Epoch 965/1000
+14/14 [==============================] - 0s 2ms/step - loss: 2.7037
+Epoch 966/1000
+14/14 [==============================] - 0s 2ms/step - loss: 2.6048
+Epoch 967/1000
+14/14 [==============================] - 0s 2ms/step - loss: 2.4456
+Epoch 968/1000
+14/14 [==============================] - 0s 3ms/step - loss: 2.4980
+Epoch 969/1000
+14/14 [==============================] - 0s 3ms/step - loss: 2.3808
+Epoch 970/1000
+14/14 [==============================] - 0s 3ms/step - loss: 2.5775
+Epoch 971/1000
+14/14 [==============================] - 0s 2ms/step - loss: 2.5674
+Epoch 972/1000
+14/14 [==============================] - 0s 2ms/step - loss: 2.3833
+Epoch 973/1000
+14/14 [==============================] - 0s 2ms/step - loss: 2.3695
+Epoch 974/1000
+14/14 [==============================] - 0s 2ms/step - loss: 2.4018
+Epoch 975/1000
+14/14 [==============================] - 0s 3ms/step - loss: 2.4864
+Epoch 976/1000
+14/14 [==============================] - 0s 3ms/step - loss: 2.4918
+Epoch 977/1000
+14/14 [==============================] - 0s 3ms/step - loss: 2.5097
+Epoch 978/1000
+14/14 [==============================] - 0s 2ms/step - loss: 2.3179
+Epoch 979/1000
+14/14 [==============================] - 0s 2ms/step - loss: 2.4231
+Epoch 980/1000
+14/14 [==============================] - 0s 2ms/step - loss: 2.2714
+Epoch 981/1000
+14/14 [==============================] - 0s 2ms/step - loss: 2.2340
+Epoch 982/1000
+14/14 [==============================] - 0s 2ms/step - loss: 2.2382
+Epoch 983/1000
+14/14 [==============================] - 0s 2ms/step - loss: 2.3679
+Epoch 984/1000
+14/14 [==============================] - 0s 2ms/step - loss: 2.3078
+Epoch 985/1000
+14/14 [==============================] - 0s 2ms/step - loss: 2.2359
+Epoch 986/1000
+14/14 [==============================] - 0s 2ms/step - loss: 2.3389
+Epoch 987/1000
+14/14 [==============================] - 0s 2ms/step - loss: 2.2886
+Epoch 988/1000
+14/14 [==============================] - 0s 2ms/step - loss: 2.2194
+Epoch 989/1000
+14/14 [==============================] - 0s 2ms/step - loss: 2.3629
+Epoch 990/1000
+14/14 [==============================] - 0s 2ms/step - loss: 2.3717
+Epoch 991/1000
+14/14 [==============================] - 0s 2ms/step - loss: 2.2866
+Epoch 992/1000
+14/14 [==============================] - 0s 3ms/step - loss: 2.1991
+Epoch 993/1000
+14/14 [==============================] - 0s 2ms/step - loss: 2.1898
+Epoch 994/1000
+14/14 [==============================] - 0s 3ms/step - loss: 2.3310
+Epoch 995/1000
+14/14 [==============================] - 0s 3ms/step - loss: 2.2359
+Epoch 996/1000
+14/14 [==============================] - 0s 3ms/step - loss: 2.1129
+Epoch 997/1000
+14/14 [==============================] - 0s 3ms/step - loss: 2.1432
+Epoch 998/1000
+14/14 [==============================] - 0s 2ms/step - loss: 2.1135
+Epoch 999/1000
+14/14 [==============================] - 0s 2ms/step - loss: 2.0982
+Epoch 1000/1000
+14/14 [==============================] - 0s 2ms/step - loss: 2.1391
+</code></pre>
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:494}"
+id="-ovS6a11FPQP" data-outputId="2139a215-7fcb-4363-d6ff-cb63a8e250df">
+<div class="sourceCode" id="cb29"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Let&#39;s look at our the loss scores collected during the training/fit session above.</span></span>
+<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-3"><a href="#cb29-3" aria-hidden="true" tabindex="-1"></a>plt.semilogy(np.arange(<span class="dv">1</span>, n_epochs<span class="op">+</span><span class="dv">1</span>), history.history[<span class="st">&#39;loss&#39;</span>])</span>
+<span id="cb29-4"><a href="#cb29-4" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Epoch&#39;</span>)</span>
+<span id="cb29-5"><a href="#cb29-5" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Loss&#39;</span>)</span>
+<span id="cb29-6"><a href="#cb29-6" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Loss during training session.&#39;</span>)</span>
+<span id="cb29-7"><a href="#cb29-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-8"><a href="#cb29-8" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Loss on the final training epoch was </span><span class="sc">{</span>history<span class="sc">.</span>history[<span class="st">&#39;loss&#39;</span>][<span class="op">-</span><span class="dv">1</span>]<span class="sc">:0.2f}</span><span class="ss">&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Loss on the final training epoch was 2.14
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_e8f45e6507fc4a26b3b8404e88c32508/f37ee996f446175082b80b918f436071098e29ae.png" /></p>
+</div>
+</div>
+<div class="cell markdown" id="5FlOYVfyFPQP">
+<h3 id="training-convergence">Training convergence</h3>
+<p>If everthing went as planned, you'll see a somewhat chaotic,
+stairstep-shapped loss curve in the figure above. During training, the
+model parameters sometimes got stuck in or a near a local minimum of the
+loss function, which is why you see some flatter portions even during
+the early training epochs. Fortunately the learning procedure found a
+way out of those local minima.</p>
+<h3 id="embedding">Embedding</h3>
+<p>Now that you've trained the autoencoder, and given yourself direct
+access to the encoder half of the autoencoder, we'll use that encoder
+(below) to "embed" the original features into a new feature/embedding
+space. The resulting new features are typically called "embedded" or
+"encoded" features.</p>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="0g8UMzmeFPQQ"
+data-nbgrader="{&quot;grade&quot;:false,&quot;grade_id&quot;:&quot;cell-bf4fdda42d853412&quot;,&quot;locked&quot;:false,&quot;schema_version&quot;:3,&quot;solution&quot;:false}"
+data-outputId="658b62cb-cce9-4edd-d463-1f3e11fae688">
+<div class="sourceCode" id="cb31"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Calculate the embedded features using the encoder model</span></span>
+<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a>X_train_embed <span class="op">=</span> encoder.predict(X_train)</span>
+<span id="cb31-3"><a href="#cb31-3" aria-hidden="true" tabindex="-1"></a>X_test_embed <span class="op">=</span> encoder.predict(X_test)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>14/14 [==============================] - 0s 2ms/step
+5/5 [==============================] - 0s 2ms/step
+</code></pre>
+</div>
+</div>
+<section id="supervised-learning" class="cell markdown"
+id="HnUhF3kzFPQQ">
+<h3>Supervised Learning</h3>
+<p>Now comes the actual training of a supervised learning model. We have
+our embedded features, thanks to our autoencoder, along with our
+original features.</p>
+<p><strong>You'll train two SVM models to predict breast cancer
+diagnoses: malignant or benign.</strong><br />
+One SVM will use the original features and one will use the embedded
+features.<br />
+Which do you think well make better test set predictions?</p>
+<p>You may experience some <code>ConvergenceWarning</code> messages.
+That's okay, you can ignore them.</p>
+</section>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:162}"
+data-deletable="false" id="nMqETa_LFPQQ"
+data-nbgrader="{&quot;cell_type&quot;:&quot;code&quot;,&quot;checksum&quot;:&quot;56c7035cf4e5032e5bbbb1ce9d7d4d35&quot;,&quot;grade&quot;:false,&quot;grade_id&quot;:&quot;cell-740d35aaf5aced68&quot;,&quot;locked&quot;:false,&quot;schema_version&quot;:3,&quot;solution&quot;:true}"
+data-outputId="a6e56711-c551-47d2-d631-4a1dd6cea5e6">
+<div class="sourceCode" id="cb33"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Train two LinearSVC models</span></span>
+<span id="cb33-2"><a href="#cb33-2" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span>
+<span id="cb33-3"><a href="#cb33-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Create and fit a model with the original features.</span></span>
+<span id="cb33-4"><a href="#cb33-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Name the model &quot;base_model&quot;.</span></span>
+<span id="cb33-5"><a href="#cb33-5" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span>
+<span id="cb33-6"><a href="#cb33-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Create and fit a model with autoencoder-embedded features.</span></span>
+<span id="cb33-7"><a href="#cb33-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Name the model &quot;embed_model&quot;.</span></span>
+<span id="cb33-8"><a href="#cb33-8" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span>
+<span id="cb33-9"><a href="#cb33-9" aria-hidden="true" tabindex="-1"></a><span class="co"># When you create your LinearSVC models, you may want to</span></span>
+<span id="cb33-10"><a href="#cb33-10" aria-hidden="true" tabindex="-1"></a><span class="co"># set random_seed to the same values (e.g., 0) for both models</span></span>
+<span id="cb33-11"><a href="#cb33-11" aria-hidden="true" tabindex="-1"></a><span class="co"># for a more apples-to-apples comparison.</span></span>
+<span id="cb33-12"><a href="#cb33-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-13"><a href="#cb33-13" aria-hidden="true" tabindex="-1"></a><span class="co"># YOUR CODE HERE</span></span>
+<span id="cb33-14"><a href="#cb33-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-15"><a href="#cb33-15" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.svm <span class="im">import</span> LinearSVC</span>
+<span id="cb33-16"><a href="#cb33-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-17"><a href="#cb33-17" aria-hidden="true" tabindex="-1"></a><span class="co"># Create and fit a model with the original features</span></span>
+<span id="cb33-18"><a href="#cb33-18" aria-hidden="true" tabindex="-1"></a>base_model <span class="op">=</span> LinearSVC(random_state<span class="op">=</span><span class="dv">0</span>)</span>
+<span id="cb33-19"><a href="#cb33-19" aria-hidden="true" tabindex="-1"></a>base_model.fit(X_train, y_train)</span>
+<span id="cb33-20"><a href="#cb33-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-21"><a href="#cb33-21" aria-hidden="true" tabindex="-1"></a><span class="co"># Create and fit a model with autoencoder-embedded features</span></span>
+<span id="cb33-22"><a href="#cb33-22" aria-hidden="true" tabindex="-1"></a>embed_model <span class="op">=</span> LinearSVC(random_state<span class="op">=</span><span class="dv">0</span>)</span>
+<span id="cb33-23"><a href="#cb33-23" aria-hidden="true" tabindex="-1"></a>embed_model.fit(X_train_embed, y_train)</span>
+<span id="cb33-24"><a href="#cb33-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-25"><a href="#cb33-25" aria-hidden="true" tabindex="-1"></a><span class="co"># raise NotImplementedError()</span></span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>/usr/local/lib/python3.9/dist-packages/sklearn/svm/_base.py:1244: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+/usr/local/lib/python3.9/dist-packages/sklearn/svm/_base.py:1244: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+</code></pre>
+</div>
+<div class="output execute_result" data-execution_count="24">
+<style>#sk-container-id-1 {color: black;background-color: white;}#sk-container-id-1 pre{padding: 0;}#sk-container-id-1 div.sk-toggleable {background-color: white;}#sk-container-id-1 label.sk-toggleable__label {cursor: pointer;display: block;width: 100%;margin-bottom: 0;padding: 0.3em;box-sizing: border-box;text-align: center;}#sk-container-id-1 label.sk-toggleable__label-arrow:before {content: "▸";float: left;margin-right: 0.25em;color: #696969;}#sk-container-id-1 label.sk-toggleable__label-arrow:hover:before {color: black;}#sk-container-id-1 div.sk-estimator:hover label.sk-toggleable__label-arrow:before {color: black;}#sk-container-id-1 div.sk-toggleable__content {max-height: 0;max-width: 0;overflow: hidden;text-align: left;background-color: #f0f8ff;}#sk-container-id-1 div.sk-toggleable__content pre {margin: 0.2em;color: black;border-radius: 0.25em;background-color: #f0f8ff;}#sk-container-id-1 input.sk-toggleable__control:checked~div.sk-toggleable__content {max-height: 200px;max-width: 100%;overflow: auto;}#sk-container-id-1 input.sk-toggleable__control:checked~label.sk-toggleable__label-arrow:before {content: "▾";}#sk-container-id-1 div.sk-estimator input.sk-toggleable__control:checked~label.sk-toggleable__label {background-color: #d4ebff;}#sk-container-id-1 div.sk-label input.sk-toggleable__control:checked~label.sk-toggleable__label {background-color: #d4ebff;}#sk-container-id-1 input.sk-hidden--visually {border: 0;clip: rect(1px 1px 1px 1px);clip: rect(1px, 1px, 1px, 1px);height: 1px;margin: -1px;overflow: hidden;padding: 0;position: absolute;width: 1px;}#sk-container-id-1 div.sk-estimator {font-family: monospace;background-color: #f0f8ff;border: 1px dotted black;border-radius: 0.25em;box-sizing: border-box;margin-bottom: 0.5em;}#sk-container-id-1 div.sk-estimator:hover {background-color: #d4ebff;}#sk-container-id-1 div.sk-parallel-item::after {content: "";width: 100%;border-bottom: 1px solid gray;flex-grow: 1;}#sk-container-id-1 div.sk-label:hover label.sk-toggleable__label {background-color: #d4ebff;}#sk-container-id-1 div.sk-serial::before {content: "";position: absolute;border-left: 1px solid gray;box-sizing: border-box;top: 0;bottom: 0;left: 50%;z-index: 0;}#sk-container-id-1 div.sk-serial {display: flex;flex-direction: column;align-items: center;background-color: white;padding-right: 0.2em;padding-left: 0.2em;position: relative;}#sk-container-id-1 div.sk-item {position: relative;z-index: 1;}#sk-container-id-1 div.sk-parallel {display: flex;align-items: stretch;justify-content: center;background-color: white;position: relative;}#sk-container-id-1 div.sk-item::before, #sk-container-id-1 div.sk-parallel-item::before {content: "";position: absolute;border-left: 1px solid gray;box-sizing: border-box;top: 0;bottom: 0;left: 50%;z-index: -1;}#sk-container-id-1 div.sk-parallel-item {display: flex;flex-direction: column;z-index: 1;position: relative;background-color: white;}#sk-container-id-1 div.sk-parallel-item:first-child::after {align-self: flex-end;width: 50%;}#sk-container-id-1 div.sk-parallel-item:last-child::after {align-self: flex-start;width: 50%;}#sk-container-id-1 div.sk-parallel-item:only-child::after {width: 0;}#sk-container-id-1 div.sk-dashed-wrapped {border: 1px dashed gray;margin: 0 0.4em 0.5em 0.4em;box-sizing: border-box;padding-bottom: 0.4em;background-color: white;}#sk-container-id-1 div.sk-label label {font-family: monospace;font-weight: bold;display: inline-block;line-height: 1.2em;}#sk-container-id-1 div.sk-label-container {text-align: center;}#sk-container-id-1 div.sk-container {/* jupyter's `normalize.less` sets `[hidden] { display: none; }` but bootstrap.min.css set `[hidden] { display: none !important; }` so we also need the `!important` here to be able to override the default hidden behavior on the sphinx rendered scikit-learn.org. See: https://github.com/scikit-learn/scikit-learn/issues/21755 */display: inline-block !important;position: relative;}#sk-container-id-1 div.sk-text-repr-fallback {display: none;}</style><div id="sk-container-id-1" class="sk-top-container"><div class="sk-text-repr-fallback"><pre>LinearSVC(random_state=0)</pre><b>In a Jupyter environment, please rerun this cell to show the HTML representation or trust the notebook. <br />On GitHub, the HTML representation is unable to render, please try loading this page with nbviewer.org.</b></div><div class="sk-container" hidden><div class="sk-item"><div class="sk-estimator sk-toggleable"><input class="sk-toggleable__control sk-hidden--visually" id="sk-estimator-id-1" type="checkbox" checked><label for="sk-estimator-id-1" class="sk-toggleable__label sk-toggleable__label-arrow">LinearSVC</label><div class="sk-toggleable__content"><pre>LinearSVC(random_state=0)</pre></div></div></div></div></div>
+</div>
+</div>
+<div class="cell code" data-deletable="false" data-editable="false"
+id="idLoMlTSFPQR"
+data-nbgrader="{&quot;cell_type&quot;:&quot;code&quot;,&quot;checksum&quot;:&quot;00d0db0002d2e5bce8165b07daf5879a&quot;,&quot;grade&quot;:true,&quot;grade_id&quot;:&quot;cell-fcb552f3048b39de&quot;,&quot;locked&quot;:true,&quot;points&quot;:5,&quot;schema_version&quot;:3,&quot;solution&quot;:false}">
+<div class="sourceCode" id="cb35"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> base_model</span>
+<span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> <span class="bu">isinstance</span>(base_model, LinearSVC)</span>
+<span id="cb35-3"><a href="#cb35-3" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> base_model.coef_.shape[<span class="dv">1</span>] <span class="op">==</span> <span class="dv">30</span></span>
+<span id="cb35-4"><a href="#cb35-4" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> embed_model</span>
+<span id="cb35-5"><a href="#cb35-5" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> <span class="bu">isinstance</span>(embed_model, LinearSVC)</span>
+<span id="cb35-6"><a href="#cb35-6" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> embed_model.coef_.shape[<span class="dv">1</span>] <span class="op">==</span> embedding_dim</span></code></pre></div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="BZatqKsPFPQR"
+data-nbgrader="{&quot;grade&quot;:false,&quot;grade_id&quot;:&quot;cell-a4569d596e6d9513&quot;,&quot;locked&quot;:false,&quot;schema_version&quot;:3,&quot;solution&quot;:false}"
+data-outputId="3c9c2210-d7bb-47ab-8525-577607810f5a">
+<div class="sourceCode" id="cb36"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;The base SVM accuracy score:                  </span><span class="sc">{</span>base_model<span class="sc">.</span>score(X_test, y_test)<span class="sc">:0.3f}</span><span class="ss">&quot;</span>)</span>
+<span id="cb36-2"><a href="#cb36-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;The autoencoder embedding SVM accuracy score: </span><span class="sc">{</span>embed_model<span class="sc">.</span>score(X_test_embed, y_test)<span class="sc">:0.3f}</span><span class="ss">&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>The base SVM accuracy score:                  0.902
+The autoencoder embedding SVM accuracy score: 0.881
+</code></pre>
+</div>
+</div>
+<section id="parting-thoughts" class="cell markdown" id="KsbhmEMlFPQR">
+<h3>Parting thoughts</h3>
+<p>Was the test set score of the embedded data model better or worse
+than that of the original data model?</p>
+<p>Ask youself why it might be better or worse.</p>
+<ul>
+<li>What happens when you change the activation function(s) in the
+autoencoder?</li>
+<li>What happens when you change the embedding_dim to be larger or
+smaller?</li>
+<li>Is it sufficient to just use LinearSVC with the default parameters
+to make any of these conclusions?</li>
+</ul>
+</section>
+<section id="feedback" class="cell markdown" data-deletable="false"
+data-editable="false" id="L2XtLXgUFPQS"
+data-nbgrader="{&quot;cell_type&quot;:&quot;markdown&quot;,&quot;checksum&quot;:&quot;0f548879bd197ac235bc863b352b6483&quot;,&quot;grade&quot;:false,&quot;grade_id&quot;:&quot;cell-1095f38e46bb02b4&quot;,&quot;locked&quot;:true,&quot;schema_version&quot;:3,&quot;solution&quot;:false}">
+<h2>Feedback</h2>
+</section>
+<div class="cell code" data-deletable="false" id="7oIdCGJBFPQS"
+data-nbgrader="{&quot;cell_type&quot;:&quot;code&quot;,&quot;checksum&quot;:&quot;ed936ab53a1391c5e6af8df699a1dbf5&quot;,&quot;grade&quot;:false,&quot;grade_id&quot;:&quot;feedback&quot;,&quot;locked&quot;:false,&quot;schema_version&quot;:3,&quot;solution&quot;:true}">
+<div class="sourceCode" id="cb38"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> feedback():</span>
+<span id="cb38-2"><a href="#cb38-2" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;Provide feedback on the contents of this exercise</span></span>
+<span id="cb38-3"><a href="#cb38-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb38-4"><a href="#cb38-4" aria-hidden="true" tabindex="-1"></a><span class="co">    Returns:</span></span>
+<span id="cb38-5"><a href="#cb38-5" aria-hidden="true" tabindex="-1"></a><span class="co">        string</span></span>
+<span id="cb38-6"><a href="#cb38-6" aria-hidden="true" tabindex="-1"></a><span class="co">    &quot;&quot;&quot;</span></span>
+<span id="cb38-7"><a href="#cb38-7" aria-hidden="true" tabindex="-1"></a>    <span class="co"># YOUR CODE HERE</span></span>
+<span id="cb38-8"><a href="#cb38-8" aria-hidden="true" tabindex="-1"></a>    <span class="co"># N/A</span></span>
+<span id="cb38-9"><a href="#cb38-9" aria-hidden="true" tabindex="-1"></a>    <span class="co"># raise NotImplementedError()</span></span></code></pre></div>
+</div>
+<div class="cell code" data-deletable="false" data-editable="false"
+id="bLuH4y8LFPQT"
+data-nbgrader="{&quot;cell_type&quot;:&quot;code&quot;,&quot;checksum&quot;:&quot;f39f6185a54850c2f1f9b5b2a17b7543&quot;,&quot;grade&quot;:true,&quot;grade_id&quot;:&quot;feedback-tests&quot;,&quot;locked&quot;:true,&quot;points&quot;:0,&quot;schema_version&quot;:3,&quot;solution&quot;:false}">
+<div class="sourceCode" id="cb39"><pre
+class="sourceCode python"><code class="sourceCode python"></code></pre></div>
+</div>
+</body>
+</html>
